@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:mec="http://www.mec.gov.br/seam">
+	
+<ui:composition>
+	<rich:modalPanel id="panel" width="#{x:getDefaultValue(width,350)}" height="#{x:getDefaultValue(height,180)}">
+		<f:facet name="header">
+			<h:panelGroup>
+				<h:outputText value="#{title}"></h:outputText>
+			</h:panelGroup>
+		</f:facet>
+		<f:facet name="controls">
+			<h:panelGroup>
+				<h:graphicImage value="/xseam/resource/image/close.png" tyleClass="hidelink" id="hidelink" />
+				<rich:componentControl for="panel" attachTo="hidelink" operation="hide" event="onclick" />
+			</h:panelGroup>
+		</f:facet>
+		<h:messages globalOnly="true"/>
+	</rich:modalPanel>
+
+	<rich:panel style="display:none;" rendered="#{facesMessages.currentGlobalMessages.size > 0}">
+		<script>
+             Event.observe(window, 'load', function(){Richfaces.showModalPanel('panel',{width:450, top:200}); });
+        </script>
+	</rich:panel>
+</ui:composition>
+</html>

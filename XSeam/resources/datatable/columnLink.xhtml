@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:rich="http://richfaces.org/rich" xmlns:x="http://www.xseam.org">
+<ui:composition>
+
+	<x:columnTemplate>
+		<!-- Here goes Column Content -->
+		<c:choose>
+			<c:when test="#{not empty link}">
+				<h:outputLink value="#{link}" target="#{target}">
+					<h:outputText value="#{value}">
+						<c:if test="#{not empty datePattern}">
+							<s:convertDateTime pattern="#{datePattern}" />
+						</c:if>
+					</h:outputText>
+					<c:if test="#{not empty graphicImage}">
+						<h:graphicImage url="#{graphicImage}" border="0" />
+					</c:if>
+				</h:outputLink>
+			</c:when>
+			<c:when test="#{not empty viewId}">
+				<s:link view="#{viewId}" propagation="nest">
+					<h:outputText value="#{value}">
+						<c:if test="#{not empty datePattern}">
+							<s:convertDateTime pattern="#{datePattern}" />
+						</c:if>
+					</h:outputText>
+					<f:param name="rid"
+						value="#{item[x:getDefaultValue(propertyId,'id')]}" />
+				</s:link>
+			</c:when>
+			<c:when test="#{removeEntity}">
+				<h:commandLink action="#{homeComponent['removeFromDataTable']}"
+					onclick="javascript:if (!confirm(\'#{messages['xseam.command.confirm']}\')) return false;">
+					<f:param name="rid"
+						value="#{item[x:getDefaultValue(propertyId,'id')]}" />
+					<h:graphicImage url="/xseam/resource/image/erro.png" border="0" />
+				</h:commandLink>
+			</c:when>
+			<c:otherwise>
+				<x:valueBinding methodBindings="action=java.lang.String;">
+					<h:commandLink action="#{action}" immediate="true">
+						<h:outputText value="#{value}">
+							<c:if test="#{not empty datePattern}">
+								<s:convertDateTime pattern="#{datePattern}" />
+							</c:if>
+						</h:outputText>
+						<c:if test="#{not empty graphicImage}">
+							<h:graphicImage url="#{graphicImage}" border="0" />
+						</c:if>
+					</h:commandLink>
+				</x:valueBinding>
+			</c:otherwise>
+		</c:choose>
+		<ui:insert />
+
+	</x:columnTemplate>
+
+</ui:composition>
+</html>

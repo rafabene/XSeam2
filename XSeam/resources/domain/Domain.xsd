@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="www.xseam.org/schemas/Domain" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="www.xseam.org/schemas/Domain">
+
+
+    <xs:element name="domain" type="tns:item"></xs:element>
+
+    <xs:complexType name="item">
+    	<xs:sequence>
+    		<xs:element name="domain" type="tns:domain" maxOccurs="unbounded" minOccurs="1"></xs:element>
+    	</xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="domain">
+    	<xs:attribute name="id" type="xs:int" use="required"></xs:attribute>
+    	<xs:attribute name="filter" type="xs:string" use="optional"></xs:attribute>
+    	<xs:attribute name="description" type="xs:string" use="required"></xs:attribute>
+    </xs:complexType>
+</xs:schema>
+

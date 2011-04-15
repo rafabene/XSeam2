@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="3200102" description="Afonso Claudio" />
+	<domain id="3200169" description="Água Doce do Norte" />
+	<domain id="3200136" description="Águia Branca" />
+	<domain id="3200201" description="Alegre" />
+	<domain id="3200300" description="Alfredo Chaves" />
+	<domain id="3200359" description="Alto Rio Novo" />
+	<domain id="3200409" description="Anchieta" />
+	<domain id="3200508" description="Apiacá" />
+	<domain id="3200607" description="Aracruz" />
+	<domain id="3200706" description="Atilio Vivacqua" />
+	<domain id="3200805" description="Baixo Guandu" />
+	<domain id="3200904" description="Barra de São Francisco" />
+	<domain id="3201001" description="Boa Esperança" />
+	<domain id="3201100" description="Bom Jesus do Norte" />
+	<domain id="3201159" description="Brejetuba" />
+	<domain id="3201209" description="Cachoeiro de Itapemirim" />
+	<domain id="3201308" description="Cariacica" />
+	<domain id="3201407" description="Castelo" />
+	<domain id="3201506" description="Colatina" />
+	<domain id="3201605" description="Conceição da Barra" />
+	<domain id="3201704" description="Conceição do Castelo" />
+	<domain id="3201803" description="Divino de São Lourenço" />
+	<domain id="3201902" description="Domingos Martins" />
+	<domain id="3202009" description="Dores do Rio Preto" />
+	<domain id="3202108" description="Ecoporanga" />
+	<domain id="3202207" description="Fundão" />
+	<domain id="3202256" description="Governador Lindenberg" />
+	<domain id="3202306" description="Guaçuí" />
+	<domain id="3202405" description="Guarapari" />
+	<domain id="3202454" description="Ibatiba" />
+	<domain id="3202504" description="Ibiraçu" />
+	<domain id="3202553" description="Ibitirama" />
+	<domain id="3202603" description="Iconha" />
+	<domain id="3202652" description="Irupi" />
+	<domain id="3202702" description="Itaguaçu" />
+	<domain id="3202801" description="Itapemirim" />
+	<domain id="3202900" description="Itarana" />
+	<domain id="3203007" description="Iúna" />
+	<domain id="3203056" description="Jaguaré" />
+	<domain id="3203106" description="Jerônimo Monteiro" />
+	<domain id="3203130" description="João Neiva" />
+	<domain id="3203163" description="Laranja da Terra" />
+	<domain id="3203205" description="Linhares" />
+	<domain id="3203304" description="Mantenópolis" />
+	<domain id="3203320" description="Marataízes" />
+	<domain id="3203346" description="Marechal Floriano" />
+	<domain id="3203353" description="Marilândia" />
+	<domain id="3203403" description="Mimoso do Sul" />
+	<domain id="3203502" description="Montanha" />
+	<domain id="3203601" description="Mucurici" />
+	<domain id="3203700" description="Muniz Freire" />
+	<domain id="3203809" description="Muqui" />
+	<domain id="3203908" description="Nova Venécia" />
+	<domain id="3204005" description="Pancas" />
+	<domain id="3204054" description="Pedro Canário" />
+	<domain id="3204104" description="Pinheiros" />
+	<domain id="3204203" description="Piúma" />
+	<domain id="3204252" description="Ponto Belo" />
+	<domain id="3204302" description="Presidente Kennedy" />
+	<domain id="3204351" description="Rio Bananal" />
+	<domain id="3204401" description="Rio Novo do Sul" />
+	<domain id="3204500" description="Santa Leopoldina" />
+	<domain id="3204559" description="Santa Maria de Jetibá" />
+	<domain id="3204609" description="Santa Teresa" />
+	<domain id="3204658" description="São Domingos do Norte" />
+	<domain id="3204708" description="São Gabriel da Palha" />
+	<domain id="3204807" description="São José do Calçado" />
+	<domain id="3204906" description="São Mateus" />
+	<domain id="3204955" description="São Roque do Canaã" />
+	<domain id="3205002" description="Serra" />
+	<domain id="3205010" description="Sooretama" />
+	<domain id="3205036" description="Vargem Alta" />
+	<domain id="3205069" description="Venda Nova do Imigrante" />
+	<domain id="3205101" description="Viana" />
+	<domain id="3205150" description="Vila Pavão" />
+	<domain id="3205176" description="Vila Valério" />
+	<domain id="3205200" description="Vila Velha" />
+	<domain id="3205309" description="Vitória" />
+</tns:domain>

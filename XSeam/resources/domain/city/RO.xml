@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="1100015" description="Alta Floresta D´Oeste" />
+	<domain id="1100379" description="Alto Alegre dos Parecis" />
+	<domain id="1100403" description="Alto Paraíso" />
+	<domain id="1100346" description="Alvorada D'Oeste" />
+	<domain id="1100023" description="Ariquemes" />
+	<domain id="1100452" description="Buritis" />
+	<domain id="1100031" description="Cabixi" />
+	<domain id="1100601" description="Cacaulândia" />
+	<domain id="1100049" description="Cacoal" />
+	<domain id="1100700" description="Campo Novo de Rondônia" />
+	<domain id="1100809" description="Candeias do Jamari" />
+	<domain id="1100908" description="Castanheiras" />
+	<domain id="1100056" description="Cerejeiras" />
+	<domain id="1100924" description="Chupinguaia" />
+	<domain id="1100064" description="Colorado do Oeste" />
+	<domain id="1100072" description="Corumbiara" />
+	<domain id="1100080" description="Costa Marques" />
+	<domain id="1100940" description="Cujubim" />
+	<domain id="1100098" description="Espigão D'Oeste" />
+	<domain id="1101005" description="Governador Jorge Teixeira" />
+	<domain id="1100106" description="Guajará-Mirim" />
+	<domain id="1101104" description="Itapuã do Oeste" />
+	<domain id="1100114" description="Jaru" />
+	<domain id="1100122" description="Ji-Paraná" />
+	<domain id="1100130" description="Machadinho D'Oeste" />
+	<domain id="1101203" description="Ministro Andreazza" />
+	<domain id="1101302" description="Mirante da Serra" />
+	<domain id="1101401" description="Monte Negro" />
+	<domain id="1100148" description="Nova Brasilândia D'Oeste" />
+	<domain id="1100338" description="Nova Mamoré" />
+	<domain id="1101435" description="Nova União" />
+	<domain id="1100502" description="Novo Horizonte do Oeste" />
+	<domain id="1100155" description="Ouro Preto do Oeste" />
+	<domain id="1101450" description="Parecis" />
+	<domain id="1100189" description="Pimenta Bueno" />
+	<domain id="1101468" description="Pimenteiras do Oeste" />
+	<domain id="1100205" description="Porto Velho" />
+	<domain id="1100254" description="Presidente Médici" />
+	<domain id="1101476" description="Primavera de Rondônia" />
+	<domain id="1100262" description="Rio Crespo" />
+	<domain id="1100288" description="Rolim de Moura" />
+	<domain id="1100296" description="Santa Luzia D'Oeste" />
+	<domain id="1101484" description="São Felipe D'Oeste" />
+	<domain id="1101492" description="São Francisco do Guaporé" />
+	<domain id="1100320" description="São Miguel do Guaporé" />
+	<domain id="1101500" description="Seringueiras" />
+	<domain id="1101559" description="Teixeirópolis" />
+	<domain id="1101609" description="Theobroma" />
+	<domain id="1101708" description="Urupá" />
+	<domain id="1101757" description="Vale do Anari" />
+	<domain id="1101807" description="Vale do Paraíso" />
+	<domain id="1100304" description="Vilhena" />
+</tns:domain>

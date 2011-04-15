@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:a4j="http://richfaces.org/a4j" xmlns:x="http://www.xseam.org">
+<ui:composition>
+
+	<x:selectOneMenu name="#{x:getDefaultValue(name,'state')}" label="#{x:getDefaultValue(label,messages['xseam.label.uf'])}" 
+			value="#{value}" items="#{org.xseam.selecItemsStates}" itemsType="other" rendered="#{rendered}"
+			title="#{title}" accesskey="#{accesskey}" readonly="#{readonly}" reRender="#{x:getDefaultValue(reRender,'city')}" required="#{required}">
+			
+		<f:converter converterId="org.xseam.stateConverter" />
+		
+	</x:selectOneMenu>
+
+</ui:composition>
+</html>

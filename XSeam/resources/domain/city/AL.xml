@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="2700102" description="Água Branca" />
+	<domain id="2700201" description="Anadia" />
+	<domain id="2700300" description="Arapiraca" />
+	<domain id="2700409" description="Atalaia" />
+	<domain id="2700508" description="Barra de Santo Antônio" />
+	<domain id="2700607" description="Barra de São Miguel" />
+	<domain id="2700706" description="Batalha" />
+	<domain id="2700805" description="Belém" />
+	<domain id="2700904" description="Belo Monte" />
+	<domain id="2701001" description="Boca da Mata" />
+	<domain id="2701100" description="Branquinha" />
+	<domain id="2701209" description="Cacimbinhas" />
+	<domain id="2701308" description="Cajueiro" />
+	<domain id="2701357" description="Campestre" />
+	<domain id="2701407" description="Campo Alegre" />
+	<domain id="2701506" description="Campo Grande" />
+	<domain id="2701605" description="Canapi" />
+	<domain id="2701704" description="Capela" />
+	<domain id="2701803" description="Carneiros" />
+	<domain id="2701902" description="Chã Preta" />
+	<domain id="2702009" description="Coité do Nóia" />
+	<domain id="2702108" description="Colônia Leopoldina" />
+	<domain id="2702207" description="Coqueiro Seco" />
+	<domain id="2702306" description="Coruripe" />
+	<domain id="2702355" description="Craíbas" />
+	<domain id="2702405" description="Delmiro Gouveia" />
+	<domain id="2702504" description="Dois Riachos" />
+	<domain id="2702553" description="Estrela de Alagoas" />
+	<domain id="2702603" description="Feira Grande" />
+	<domain id="2702702" description="Feliz Deserto" />
+	<domain id="2702801" description="Flexeiras" />
+	<domain id="2702900" description="Girau do Ponciano" />
+	<domain id="2703007" description="Ibateguara" />
+	<domain id="2703106" description="Igaci" />
+	<domain id="2703205" description="Igreja Nova" />
+	<domain id="2703304" description="Inhapi" />
+	<domain id="2703403" description="Jacaré dos Homens" />
+	<domain id="2703502" description="Jacuípe" />
+	<domain id="2703601" description="Japaratinga" />
+	<domain id="2703700" description="Jaramataia" />
+	<domain id="2703759" description="Jequiá da Praia" />
+	<domain id="2703809" description="Joaquim Gomes" />
+	<domain id="2703908" description="Jundiá" />
+	<domain id="2704005" description="Junqueiro" />
+	<domain id="2704104" description="Lagoa da Canoa" />
+	<domain id="2704203" description="Limoeiro de Anadia" />
+	<domain id="2704302" description="Maceió" />
+	<domain id="2704401" description="Major Isdomainoro" />
+	<domain id="2704906" description="Mar Vermelho" />
+	<domain id="2704500" description="Maragogi" />
+	<domain id="2704609" description="Maravilha" />
+	<domain id="2704708" description="Marechal Deodoro" />
+	<domain id="2704807" description="Maribondo" />
+	<domain id="2705002" description="Mata Grande" />
+	<domain id="2705101" description="Matriz de Camaragibe" />
+	<domain id="2705200" description="Messias" />
+	<domain id="2705309" description="Minador do Negrão" />
+	<domain id="2705408" description="Monteirópolis" />
+	<domain id="2705507" description="Murici" />
+	<domain id="2705606" description="Novo Lino" />
+	<domain id="2705705" description="Olho d'Água das Flores" />
+	<domain id="2705804" description="Olho d'Água do Casado" />
+	<domain id="2705903" description="Olho d'Água Grande" />
+	<domain id="2706000" description="Olivença" />
+	<domain id="2706109" description="Ouro Branco" />
+	<domain id="2706208" description="Palestina" />
+	<domain id="2706307" description="Palmeira dos Índios" />
+	<domain id="2706406" description="Pão de Açúcar" />
+	<domain id="2706422" description="Pariconha" />
+	<domain id="2706448" description="Paripueira" />
+	<domain id="2706505" description="Passo de Camaragibe" />
+	<domain id="2706604" description="Paulo Jacinto" />
+	<domain id="2706703" description="Penedo" />
+	<domain id="2706802" description="Piaçabuçu" />
+	<domain id="2706901" description="Pilar" />
+	<domain id="2707008" description="Pindoba" />
+	<domain id="2707107" description="Piranhas" />
+	<domain id="2707206" description="Poço das Trincheiras" />
+	<domain id="2707305" description="Porto Calvo" />
+	<domain id="2707404" description="Porto de Pedras" />
+	<domain id="2707503" description="Porto Real do Colégio" />
+	<domain id="2707602" description="Quebrangulo" />
+	<domain id="2707701" description="Rio Largo" />
+	<domain id="2707800" description="Roteiro" />
+	<domain id="2707909" description="Santa Luzia do Norte" />
+	<domain id="2708006" description="Santana do Ipanema" />
+	<domain id="2708105" description="Santana do Mundaú" />
+	<domain id="2708204" description="São Brás" />
+	<domain id="2708303" description="São José da Laje" />
+	<domain id="2708402" description="São José da Tapera" />
+	<domain id="2708501" description="São Luís do Quitunde" />
+	<domain id="2708600" description="São Miguel dos Campos" />
+	<domain id="2708709" description="São Miguel dos Milagres" />
+	<domain id="2708808" description="São Sebastião" />
+	<domain id="2708907" description="Satuba" />
+	<domain id="2708956" description="Senador Rui Palmeira" />
+	<domain id="2709004" description="Tanque d'Arca" />
+	<domain id="2709103" description="Taquarana" />
+	<domain id="2709152" description="Teotônio Vilela" />
+	<domain id="2709202" description="Traipu" />
+	<domain id="2709301" description="União dos Palmares" />
+	<domain id="2709400" description="Viçosa" />
+</tns:domain>

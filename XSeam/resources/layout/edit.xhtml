@@ -1,0 +1,34 @@
+<ui:component xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:x="http://www.xseam.org"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich"
+	rendered="#{x:getDefaultValue(rendered,true)}" >
+	
+	<a4j:loadScript src="resource://js/jquery.maskedinput-1.1.3.js"/>
+	<rich:jQuery selector="##{name}Input" query="mask('#{mask}')" timing="onload" rendered="#{not empty mask}"/>
+	
+	<div class="prop">
+	
+		<s:label styleClass="name #{invalid?'errors':''}" accesskey="#{accesskey}">
+			<ui:insert name="label" />
+			<s:span styleClass="required" rendered="#{required}">*</s:span>
+		</s:label> 
+		
+		<span class="value #{invalid?'errors':''}" > 
+			<s:validateAll>
+				<ui:insert/>
+			</s:validateAll> 
+		</span>
+		
+		<span class="error">
+			<s:graphicImage value="/image/erro.png" rendered="#{invalid}" styleClass="errors"/>
+	  		<s:message styleClass="errors" />
+	  	</span>
+	  	
+	</div>
+</ui:component>

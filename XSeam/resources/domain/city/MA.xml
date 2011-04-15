@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="2100055" description="Acailandia" />
+	<domain id="2100105" description="Afonso Cunha" />
+	<domain id="2100154" description="Água Doce do Maranhão" />
+	<domain id="2100204" description="Alcântara" />
+	<domain id="2100303" description="Aldeias Altas" />
+	<domain id="2100402" description="Altamira do Maranhão" />
+	<domain id="2100436" description="Alto Alegre do Maranhão" />
+	<domain id="2100477" description="Alto Alegre do Pindaré" />
+	<domain id="2100501" description="Alto Parnaíba" />
+	<domain id="2100550" description="Amapá do Maranhão" />
+	<domain id="2100600" description="Amarante do Maranhão" />
+	<domain id="2100709" description="Anajatuba" />
+	<domain id="2100808" description="Anapurus" />
+	<domain id="2100832" description="Apicum-Açu" />
+	<domain id="2100873" description="Araguanã" />
+	<domain id="2100907" description="Araioses" />
+	<domain id="2100956" description="Arame" />
+	<domain id="2101004" description="Arari" />
+	<domain id="2101103" description="Axixá" />
+	<domain id="2101202" description="Bacabal" />
+	<domain id="2101251" description="Bacabeira" />
+	<domain id="2101301" description="Bacuri" />
+	<domain id="2101350" description="Bacurituba" />
+	<domain id="2101400" description="Balsas" />
+	<domain id="2101509" description="Barão de Grajaú" />
+	<domain id="2101608" description="Barra do Corda" />
+	<domain id="2101707" description="Barreirinhas" />
+	<domain id="2101772" description="Bela Vista do Maranhão" />
+	<domain id="2101731" description="Belágua" />
+	<domain id="2101806" description="Benedito Leite" />
+	<domain id="2101905" description="Bequimão" />
+	<domain id="2101939" description="Bernardo do Mearim" />
+	<domain id="2101970" description="Boa Vista do Gurupi" />
+	<domain id="2102002" description="Bom Jardim" />
+	<domain id="2102036" description="Bom Jesus das Selvas" />
+	<domain id="2102077" description="Bom Lugar" />
+	<domain id="2102101" description="Brejo" />
+	<domain id="2102150" description="Brejo de Areia" />
+	<domain id="2102200" description="Buriti" />
+	<domain id="2102309" description="Buriti Bravo" />
+	<domain id="2102325" description="Buriticupu" />
+	<domain id="2102358" description="Buritirana" />
+	<domain id="2102374" description="Cachoeira Grande" />
+	<domain id="2102408" description="Cajapió" />
+	<domain id="2102507" description="Cajari" />
+	<domain id="2102556" description="Campestre do Maranhão" />
+	<domain id="2102606" description="Cândido Mendes" />
+	<domain id="2102705" description="Cantanhede" />
+	<domain id="2102754" description="Capinzal do Norte" />
+	<domain id="2102804" description="Carolina" />
+	<domain id="2102903" description="Carutapera" />
+	<domain id="2103000" description="Caxias" />
+	<domain id="2103109" description="Cedral" />
+	<domain id="2103125" description="Central do Maranhão" />
+	<domain id="2103158" description="Centro do Guilherme" />
+	<domain id="2103174" description="Centro Novo do Maranhão" />
+	<domain id="2103208" description="Chapadinha" />
+	<domain id="2103257" description="Cidelândia" />
+	<domain id="2103307" description="Codó" />
+	<domain id="2103406" description="Coelho Neto" />
+	<domain id="2103505" description="Colinas" />
+	<domain id="2103554" description="Conceição do Lago-Açu" />
+	<domain id="2103604" description="Coroatá" />
+	<domain id="2103703" description="Cururupu" />
+	<domain id="2103752" description="Davinópolis" />
+	<domain id="2103802" description="Dom Pedro" />
+	<domain id="2103901" description="Duque Bacelar" />
+	<domain id="2104008" description="Esperantinópolis" />
+	<domain id="2104057" description="Estreito" />
+	<domain id="2104073" description="Feira Nova do Maranhão" />
+	<domain id="2104081" description="Fernando Falcão" />
+	<domain id="2104099" description="Formosa da Serra Negra" />
+	<domain id="2104107" description="Fortaleza dos Nogueiras" />
+	<domain id="2104206" description="Fortuna" />
+	<domain id="2104305" description="Godofredo Viana" />
+	<domain id="2104404" description="Gonçalves Dias" />
+	<domain id="2104503" description="Governador Archer" />
+	<domain id="2104552" description="Governador Edison Lobão" />
+	<domain id="2104602" description="Governador Eugênio Barros" />
+	<domain id="2104628" description="Governador Luiz Rocha" />
+	<domain id="2104651" description="Governador Newton Bello" />
+	<domain id="2104677" description="Governador Nunes Freire" />
+	<domain id="2104701" description="Graça Aranha" />
+	<domain id="2104800" description="Grajaú" />
+	<domain id="2104909" description="Guimarães" />
+	<domain id="2105005" description="Humberto de Campos" />
+	<domain id="2105104" description="Icatu" />
+	<domain id="2105153" description="Igarapé do Meio" />
+	<domain id="2105203" description="Igarapé Grande" />
+	<domain id="2105302" description="Imperatriz" />
+	<domain id="2105351" description="Itaipava do Grajaú" />
+	<domain id="2105401" description="Itapecuru Mirim" />
+	<domain id="2105427" description="Itinga do Maranhão" />
+	<domain id="2105450" description="Jatobá" />
+	<domain id="2105476" description="Jenipapo dos Vieiras" />
+	<domain id="2105500" description="João Lisboa" />
+	<domain id="2105609" description="Joselândia" />
+	<domain id="2105658" description="Junco do Maranhão" />
+	<domain id="2105708" description="Lago da Pedra" />
+	<domain id="2105807" description="Lago do Junco" />
+	<domain id="2105948" description="Lago dos Rodrigues" />
+	<domain id="2105906" description="Lago Verde" />
+	<domain id="2105922" description="Lagoa do Mato" />
+	<domain id="2105963" description="Lagoa Grande do Maranhão" />
+	<domain id="2105989" description="Lajeado Novo" />
+	<domain id="2106003" description="Lima Campos" />
+	<domain id="2106102" description="Loreto" />
+	<domain id="2106201" description="Luís Domingues" />
+	<domain id="2106300" description="Magalhães de Almeida" />
+	<domain id="2106326" description="Maracaçumé" />
+	<domain id="2106359" description="Marajá do Sena" />
+	<domain id="2106375" description="Maranhãozinho" />
+	<domain id="2106409" description="Mata Roma" />
+	<domain id="2106508" description="Matinha" />
+	<domain id="2106607" description="Matões" />
+	<domain id="2106631" description="Matões do Norte" />
+	<domain id="2106672" description="Milagres do Maranhão" />
+	<domain id="2106706" description="Mirador" />
+	<domain id="2106755" description="Miranda do Norte" />
+	<domain id="2106805" description="Mirinzal" />
+	<domain id="2106904" description="Monção" />
+	<domain id="2107001" description="Montes Altos" />
+	<domain id="2107100" description="Morros" />
+	<domain id="2107209" description="Nina Rodrigues" />
+	<domain id="2107258" description="Nova Colinas" />
+	<domain id="2107308" description="Nova Iorque" />
+	<domain id="2107357" description="Nova Olinda do Maranhão" />
+	<domain id="2107407" description="Olho d'Água das Cunhãs" />
+	<domain id="2107456" description="Olinda Nova do Maranhão" />
+	<domain id="2107506" description="Paço do Lumiar" />
+	<domain id="2107605" description="Palmeirândia" />
+	<domain id="2107704" description="Paraibano" />
+	<domain id="2107803" description="Parnarama" />
+	<domain id="2107902" description="Passagem Franca" />
+	<domain id="2108009" description="Pastos Bons" />
+	<domain id="2108058" description="Paulino Neves" />
+	<domain id="2108108" description="Paulo Ramos" />
+	<domain id="2108207" description="Pedreiras" />
+	<domain id="2108256" description="Pedro do Rosário" />
+	<domain id="2108306" description="Penalva" />
+	<domain id="2108405" description="Peri Mirim" />
+	<domain id="2108454" description="Peritoró" />
+	<domain id="2108504" description="Pindaré-Mirim" />
+	<domain id="2108603" description="Pinheiro" />
+	<domain id="2108702" description="Pio XII" />
+	<domain id="2108801" description="Pirapemas" />
+	<domain id="2108900" description="Poção de Pedras" />
+	<domain id="2109007" description="Porto Franco" />
+	<domain id="2109056" description="Porto Rico do Maranhão" />
+	<domain id="2109106" description="Presidente Dutra" />
+	<domain id="2109205" description="Presidente Juscelino" />
+	<domain id="2109239" description="Presidente Médici" />
+	<domain id="2109270" description="Presidente Sarney" />
+	<domain id="2109304" description="Presidente Vargas" />
+	<domain id="2109403" description="Primeira Cruz" />
+	<domain id="2109452" description="Raposa" />
+	<domain id="2109502" description="Riachão" />
+	<domain id="2109551" description="Ribamar Fiquene" />
+	<domain id="2109601" description="Rosário" />
+	<domain id="2109700" description="Sambaíba" />
+	<domain id="2109759" description="Santa Filomena do Maranhão" />
+	<domain id="2109809" description="Santa Helena" />
+	<domain id="2109908" description="Santa Inês" />
+	<domain id="2110005" description="Santa Luzia" />
+	<domain id="2110039" description="Santa Luzia do Paruá" />
+	<domain id="2110104" description="Santa Quitéria do Maranhão" />
+	<domain id="2110203" description="Santa Rita" />
+	<domain id="2110237" description="Santana do Maranhão" />
+	<domain id="2110278" description="Santo Amaro do Maranhão" />
+	<domain id="2110302" description="Santo Antônio dos Lopes" />
+	<domain id="2110401" description="São Benedito do Rio Preto" />
+	<domain id="2110500" description="São Bento" />
+	<domain id="2110609" description="São Bernardo" />
+	<domain id="2110658" description="São Domingos do Azeitão" />
+	<domain id="2110708" description="São Domingos do Maranhão" />
+	<domain id="2110807" description="São Félix de Balsas" />
+	<domain id="2110856" description="São Francisco do Brejão" />
+	<domain id="2110906" description="São Francisco do Maranhão" />
+	<domain id="2111003" description="São João Batista" />
+	<domain id="2111029" description="São João do Carú" />
+	<domain id="2111052" description="São João do Paraíso" />
+	<domain id="2111078" description="São João do Soter" />
+	<domain id="2111102" description="São João dos Patos" />
+	<domain id="2111201" description="São José de Ribamar" />
+	<domain id="2111250" description="São José dos Basílios" />
+	<domain id="2111300" description="São Luís" />
+	<domain id="2111409" description="São Luís Gonzaga do Maranhão" />
+	<domain id="2111508" description="São Mateus do Maranhão" />
+	<domain id="2111532" description="São Pedro da Água Branca" />
+	<domain id="2111573" description="São Pedro dos Crentes" />
+	<domain id="2111607" description="São Raimundo das Mangabeiras" />
+	<domain id="2111631" description="São Raimundo do Doca Bezerra" />
+	<domain id="2111672" description="São Roberto" />
+	<domain id="2111706" description="São Vicente Ferrer" />
+	<domain id="2111722" description="Satubinha" />
+	<domain id="2111748" description="Senador Alexandre Costa" />
+	<domain id="2111763" description="Senador La Rocque" />
+	<domain id="2111789" description="Serrano do Maranhão" />
+	<domain id="2111805" description="Sítio Novo" />
+	<domain id="2111904" description="Sucupira do Norte" />
+	<domain id="2111953" description="Sucupira do Riachão" />
+	<domain id="2112001" description="Tasso Fragoso" />
+	<domain id="2112100" description="Timbiras" />
+	<domain id="2112209" description="Timon" />
+	<domain id="2112233" description="Trizidela do Vale" />
+	<domain id="2112274" description="Tufilândia" />
+	<domain id="2112308" description="Tuntum" />
+	<domain id="2112407" description="Turiaçu" />
+	<domain id="2112456" description="Turilândia" />
+	<domain id="2112506" description="Tutóia" />
+	<domain id="2112605" description="Urbano Santos" />
+	<domain id="2112704" description="Vargem Grande" />
+	<domain id="2112803" description="Viana" />
+	<domain id="2112852" description="Vila Nova dos Martírios" />
+	<domain id="2112902" description="Vitória do Mearim" />
+	<domain id="2113009" description="Vitorino Freire" />
+	<domain id="2114007" description="Zé Doca" />
+</tns:domain>

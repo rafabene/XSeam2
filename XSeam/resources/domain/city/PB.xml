@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="2500106" description="Água Branca" />
+	<domain id="2500205" description="Aguiar" />
+	<domain id="2500304" description="Alagoa Grande" />
+	<domain id="2500403" description="Alagoa Nova" />
+	<domain id="2500502" description="Alagoinha" />
+	<domain id="2500536" description="Alcantil" />
+	<domain id="2500577" description="Algodão de Jandaíra" />
+	<domain id="2500601" description="Alhandra" />
+	<domain id="2500734" description="Amparo" />
+	<domain id="2500775" description="Aparecida" />
+	<domain id="2500809" description="Araçagi" />
+	<domain id="2500908" description="Arara" />
+	<domain id="2501005" description="Araruna" />
+	<domain id="2501104" description="Areia" />
+	<domain id="2501153" description="Areia de Baraúnas" />
+	<domain id="2501203" description="Areial" />
+	<domain id="2501302" description="Aroeiras" />
+	<domain id="2501351" description="Assunção" />
+	<domain id="2501401" description="Baía da Traição" />
+	<domain id="2501500" description="Bananeiras" />
+	<domain id="2501534" description="Baraúna" />
+	<domain id="2501609" description="Barra de Santa Rosa" />
+	<domain id="2501575" description="Barra de Santana" />
+	<domain id="2501708" description="Barra de São Miguel" />
+	<domain id="2501807" description="Bayeux" />
+	<domain id="2501906" description="Belém" />
+	<domain id="2502003" description="Belém do Brejo do Cruz" />
+	<domain id="2502052" description="Bernardino Batista" />
+	<domain id="2502102" description="Boa Ventura" />
+	<domain id="2502151" description="Boa Vista" />
+	<domain id="2502201" description="Bom Jesus" />
+	<domain id="2502300" description="Bom Sucesso" />
+	<domain id="2502409" description="Bonito de Santa Fé" />
+	<domain id="2502508" description="Boqueirão" />
+	<domain id="2502706" description="Borborema" />
+	<domain id="2502805" description="Brejo do Cruz" />
+	<domain id="2502904" description="Brejo dos Santos" />
+	<domain id="2503001" description="Caaporã" />
+	<domain id="2503100" description="Cabaceiras" />
+	<domain id="2503209" description="Cabedelo" />
+	<domain id="2503308" description="Cachoeira dos Índios" />
+	<domain id="2503407" description="Cacimba de Areia" />
+	<domain id="2503506" description="Cacimba de Dentro" />
+	<domain id="2503555" description="Cacimbas" />
+	<domain id="2503605" description="Caiçara" />
+	<domain id="2503704" description="Cajazeiras" />
+	<domain id="2503753" description="Cajazeirinhas" />
+	<domain id="2503803" description="Caldas Brandão" />
+	<domain id="2503902" description="Camalaú" />
+	<domain id="2504009" description="Campina Grande" />
+	<domain id="2516409" description="Campo de Santana" />
+	<domain id="2504033" description="Capim" />
+	<domain id="2504074" description="Caraúbas" />
+	<domain id="2504108" description="Carrapateira" />
+	<domain id="2504157" description="Casserengue" />
+	<domain id="2504207" description="Catingueira" />
+	<domain id="2504306" description="Catolé do Rocha" />
+	<domain id="2504355" description="Caturité" />
+	<domain id="2504405" description="Conceição" />
+	<domain id="2504504" description="Condado" />
+	<domain id="2504603" description="Conde" />
+	<domain id="2504702" description="Congo" />
+	<domain id="2504801" description="Coremas" />
+	<domain id="2504850" description="Coxixola" />
+	<domain id="2504900" description="Cruz do Espírito Santo" />
+	<domain id="2505006" description="Cubati" />
+	<domain id="2505105" description="Cuité" />
+	<domain id="2505238" description="Cuité de Mamanguape" />
+	<domain id="2505204" description="Cuitegi" />
+	<domain id="2505279" description="Curral de Cima" />
+	<domain id="2505303" description="Curral Velho" />
+	<domain id="2505352" description="Damião" />
+	<domain id="2505402" description="Desterro" />
+	<domain id="2505600" description="Diamante" />
+	<domain id="2505709" description="Dona Inês" />
+	<domain id="2505808" description="Duas Estradas" />
+	<domain id="2505907" description="Emas" />
+	<domain id="2506004" description="Esperança" />
+	<domain id="2506103" description="Fagundes" />
+	<domain id="2506202" description="Frei Martinho" />
+	<domain id="2506251" description="Gado Bravo" />
+	<domain id="2506301" description="Guarabira" />
+	<domain id="2506400" description="Gurinhém" />
+	<domain id="2506509" description="Gurjão" />
+	<domain id="2506608" description="Ibiara" />
+	<domain id="2502607" description="Igaracy" />
+	<domain id="2506707" description="Imaculada" />
+	<domain id="2506806" description="Ingá" />
+	<domain id="2506905" description="Itabaiana" />
+	<domain id="2507002" description="Itaporanga" />
+	<domain id="2507101" description="Itapororoca" />
+	<domain id="2507200" description="Itatuba" />
+	<domain id="2507309" description="Jacaraú" />
+	<domain id="2507408" description="Jericó" />
+	<domain id="2507507" description="João Pessoa" />
+	<domain id="2507606" description="Juarez Távora" />
+	<domain id="2507705" description="Juazeirinho" />
+	<domain id="2507804" description="Junco do Seridó" />
+	<domain id="2507903" description="Juripiranga" />
+	<domain id="2508000" description="Juru" />
+	<domain id="2508109" description="Lagoa" />
+	<domain id="2508208" description="Lagoa de Dentro" />
+	<domain id="2508307" description="Lagoa Seca" />
+	<domain id="2508406" description="Lastro" />
+	<domain id="2508505" description="Livramento" />
+	<domain id="2508554" description="Logradouro" />
+	<domain id="2508604" description="Lucena" />
+	<domain id="2508703" description="Mãe d'Água" />
+	<domain id="2508802" description="Malta" />
+	<domain id="2508901" description="Mamanguape" />
+	<domain id="2509008" description="Manaíra" />
+	<domain id="2509057" description="Marcação" />
+	<domain id="2509107" description="Mari" />
+	<domain id="2509156" description="Marizópolis" />
+	<domain id="2509206" description="Massaranduba" />
+	<domain id="2509305" description="Mataraca" />
+	<domain id="2509339" description="Matinhas" />
+	<domain id="2509370" description="Mato Grosso" />
+	<domain id="2509396" description="Maturéia" />
+	<domain id="2509404" description="Mogeiro" />
+	<domain id="2509503" description="Montadas" />
+	<domain id="2509602" description="Monte Horebe" />
+	<domain id="2509701" description="Monteiro" />
+	<domain id="2509800" description="Mulungu" />
+	<domain id="2509909" description="Natuba" />
+	<domain id="2510006" description="Nazarezinho" />
+	<domain id="2510105" description="Nova Floresta" />
+	<domain id="2510204" description="Nova Olinda" />
+	<domain id="2510303" description="Nova Palmeira" />
+	<domain id="2510402" description="Olho d'Água" />
+	<domain id="2510501" description="Olivedos" />
+	<domain id="2510600" description="Ouro Velho" />
+	<domain id="2510659" description="Parari" />
+	<domain id="2510709" description="Passagem" />
+	<domain id="2510808" description="Patos" />
+	<domain id="2510907" description="Paulista" />
+	<domain id="2511004" description="Pedra Branca" />
+	<domain id="2511103" description="Pedra Lavrada" />
+	<domain id="2511202" description="Pedras de Fogo" />
+	<domain id="2512721" description="Pedro Régis" />
+	<domain id="2511301" description="Piancó" />
+	<domain id="2511400" description="Picuí" />
+	<domain id="2511509" description="Pilar" />
+	<domain id="2511608" description="Pilões" />
+	<domain id="2511707" description="Pilõezinhos" />
+	<domain id="2511806" description="Pirpirituba" />
+	<domain id="2511905" description="Pitimbu" />
+	<domain id="2512002" description="Pocinhos" />
+	<domain id="2512036" description="Poço Dantas" />
+	<domain id="2512077" description="Poço de José de Moura" />
+	<domain id="2512101" description="Pombal" />
+	<domain id="2512200" description="Prata" />
+	<domain id="2512309" description="Princesa Isabel" />
+	<domain id="2512408" description="Puxinanã" />
+	<domain id="2512507" description="Queimadas" />
+	<domain id="2512606" description="Quixabá" />
+	<domain id="2512705" description="Remígio" />
+	<domain id="2512747" description="Riachão" />
+	<domain id="2512754" description="Riachão do Bacamarte" />
+	<domain id="2512762" description="Riachão do Poço" />
+	<domain id="2512788" description="Riacho de Santo Antônio" />
+	<domain id="2512804" description="Riacho dos Cavalos" />
+	<domain id="2512903" description="Rio Tinto" />
+	<domain id="2513000" description="Salgadinho" />
+	<domain id="2513109" description="Salgado de São Félix" />
+	<domain id="2513158" description="Santa Cecília" />
+	<domain id="2513208" description="Santa Cruz" />
+	<domain id="2513307" description="Santa Helena" />
+	<domain id="2513356" description="Santa Inês" />
+	<domain id="2513406" description="Santa Luzia" />
+	<domain id="2513703" description="Santa Rita" />
+	<domain id="2513802" description="Santa Teresinha" />
+	<domain id="2513505" description="Santana de Mangueira" />
+	<domain id="2513604" description="Santana dos Garrotes" />
+	<domain id="2513653" description="Santarém" />
+	<domain id="2513851" description="Santo André" />
+	<domain id="2513927" description="São Bentinho" />
+	<domain id="2513901" description="São Bento" />
+	<domain id="2513968" description="São Domingos de Pombal" />
+	<domain id="2513943" description="São Domingos do Cariri" />
+	<domain id="2513984" description="São Francisco" />
+	<domain id="2514008" description="São João do Cariri" />
+	<domain id="2500700" description="São João do Rio do Peixe" />
+	<domain id="2514107" description="São João do Tigre" />
+	<domain id="2514206" description="São José da Lagoa Tapada" />
+	<domain id="2514305" description="São José de Caiana" />
+	<domain id="2514404" description="São José de Espinharas" />
+	<domain id="2514503" description="São José de Piranhas" />
+	<domain id="2514552" description="São José de Princesa" />
+	<domain id="2514602" description="São José do Bonfim" />
+	<domain id="2514651" description="São José do Brejo do Cruz" />
+	<domain id="2514701" description="São José do Sabugi" />
+	<domain id="2514800" description="São José dos Cordeiros" />
+	<domain id="2514453" description="São José dos Ramos" />
+	<domain id="2514909" description="São Mamede" />
+	<domain id="2515005" description="São Miguel de Taipu" />
+	<domain id="2515104" description="São Sebastião de Lagoa de Roça" />
+	<domain id="2515203" description="São Sebastião do Umbuzeiro" />
+	<domain id="2515302" description="Sapé" />
+	<domain id="2515401" description="Seridó" />
+	<domain id="2515500" description="Serra Branca" />
+	<domain id="2515609" description="Serra da Raiz" />
+	<domain id="2515708" description="Serra Grande" />
+	<domain id="2515807" description="Serra Redonda" />
+	<domain id="2515906" description="Serraria" />
+	<domain id="2515930" description="Sertãozinho" />
+	<domain id="2515971" description="Sobrado" />
+	<domain id="2516003" description="Solânea" />
+	<domain id="2516102" description="Soledade" />
+	<domain id="2516151" description="Sossêgo" />
+	<domain id="2516201" description="Sousa" />
+	<domain id="2516300" description="Sumé" />
+	<domain id="2516508" description="Taperoá" />
+	<domain id="2516607" description="Tavares" />
+	<domain id="2516706" description="Teixeira" />
+	<domain id="2516755" description="Tenório" />
+	<domain id="2516805" description="Triunfo" />
+	<domain id="2516904" description="Uiraúna" />
+	<domain id="2517001" description="Umbuzeiro" />
+	<domain id="2517100" description="Várzea" />
+	<domain id="2517209" description="Vieirópolis" />
+	<domain id="2505501" description="Vista Serrana" />
+	<domain id="2517407" description="Zabelê" />
+</tns:domain>

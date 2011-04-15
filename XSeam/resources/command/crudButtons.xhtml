@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:mec="http://www.xseam.org">
+<ui:component rendered="#{x:getDefaultValue(rendered,true)}">
+			<h:commandButton action="#{homeComponent.newRegister}" value="#{messages['xseam.command.new']}" rendered="#{homeComponent.managed}" />
+			<h:commandButton id="persist" action="#{homeComponent.persist}" value="#{messages['xseam.command.persist']}"	rendered="#{!homeComponent.managed}" >
+				<s:defaultAction rendered="#{!homeComponent.managed}"/>
+			</h:commandButton>
+			<h:commandButton id="update" action="#{homeComponent.update}" value="#{messages['xseam.command.update']}"  rendered="#{homeComponent.managed}" >
+				<s:defaultAction  rendered="#{homeComponent.managed}" />
+			</h:commandButton>   
+			<h:commandButton action="#{homeComponent.remove}" value="#{messages['xseam.command.remove']}"	rendered="#{homeComponent.managed}"   onclick="return confirm(\'#{messages['xseam.command.confirm']}\');"/>
+			<s:button value="#{messages['xseam.command.end']}" view="#{endViewId}" propagation="end" />
+</ui:component> 
+</html>

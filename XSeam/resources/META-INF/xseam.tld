@@ -1,0 +1,1670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+                        "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+	<tlib-version>1.2</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>x</short-name>
+	<uri>http://www.xseam.org</uri>
+	<display-name>XSeam</display-name>
+	<description>XSeam Components</description>
+	<tag>
+		<name>inputText</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>input Text component</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Component name,</description>
+		</attribute>
+		<attribute>
+			<name>title</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Advisory title (hint) information about markup
+				elements
+				generated for this component.</description>
+		</attribute>
+		<!-- commons label -->
+		<attribute>
+			<name>accesskey</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>This attribute assigns an access key to an element.
+				An
+				access key is a single character from the document character set.
+				Note. Authors should consider the input method of the expected
+				reader when specifying an accesskey</description>
+		</attribute>
+		<attribute>
+			<name>label</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>the label to be used when rendering this component</description>
+		</attribute>
+		<!-- end commons label -->
+		<attribute>
+			<name>required</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "true", this component is checked for non-empty
+				input</description>
+		</attribute>
+		<attribute>
+			<name>ajaxValidation</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, will auto-validate this field onblue event</description>
+		</attribute>
+		<attribute>
+			<name>readonly</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, component will be readonly and disabled</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for this component</description>
+		</attribute>
+		<attribute>
+			<name>jsfValidator</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Id of Validator to be used or reference to a Converter</description>
+		</attribute>
+		<attribute>
+			<name>jsfConverter</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Id of Converter to be used or reference to a Converter</description>
+		</attribute>
+		<attribute>
+			<name>emptyValueToNull</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if "false", empty Values won't be converted to null</description>
+		</attribute>
+		<!-- end commons params -->
+		<attribute>
+			<name>maxlength</name>
+			<required>false</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Integer</type>
+			<description>The maximum number of characters that may be entered
+				in
+				this field.. Default is 50.</description>
+		</attribute>
+		<attribute>
+			<name>size</name>
+			<required>false</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Integer</type>
+			<description>The number of characters used to determine the width of
+				this field.</description>
+		</attribute>
+		<attribute>
+			<name>autocomplete</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If the value of this attribute is "off", render "off"
+				as
+				the value of the attribute. This indicates that the browser
+				should
+				disable its autocomplete feature for this component. This is
+				useful
+				for components that perform autocompletion and do not want
+				the
+				browser interfering. If this attribute is not set or the value
+				is
+				"on", render nothing.</description>
+		</attribute>
+		<attribute>
+			<name>datePattern</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Predefined formatting style which determines
+				how the time
+				component of a date string is to be formatted and
+				parsed.</description>
+		</attribute>
+		<attribute>
+			<name>mask</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Define mask format. Ex: 99/99/9999 / 9 (Number) -
+				A
+				(Character) - * (All)</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>inputNumber</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>input Text component</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Component name,</description>
+		</attribute>
+		<attribute>
+			<name>title</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Advisory title (hint) information about markup
+				elements
+				generated for this component.</description>
+		</attribute>
+		<!-- commons label -->
+		<attribute>
+			<name>accesskey</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>This attribute assigns an access key to an element.
+				An
+				access key is a single character from the document character set.
+				Note. Authors should consider the input method of the expected
+				reader when specifying an accesskey</description>
+		</attribute>
+		<attribute>
+			<name>label</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>the label to be used when rendering this component</description>
+		</attribute>
+		<!-- end commons label -->
+		<attribute>
+			<name>decimalSeparator</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Defines a decimal separator, other then ','</description>
+		</attribute>
+		<attribute>
+			<name>required</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "true", this component is checked for non-empty
+				input</description>
+		</attribute>
+		<attribute>
+			<name>ajaxValidation</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, will auto-validate this field onblue event</description>
+		</attribute>
+		<attribute>
+			<name>readonly</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, component will be readonly and disabled</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for this component</description>
+		</attribute>
+		<attribute>
+			<name>jsfValidator</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Id of Validator to be used or reference to a Converter</description>
+		</attribute>
+		<attribute>
+			<name>jsfConverter</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Id of Converter to be used or reference to a Converter</description>
+		</attribute>
+		<attribute>
+			<name>emptyValueToNull</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if "false", empty Values won't be converted to null</description>
+		</attribute>
+		<!-- end commons params -->
+		<attribute>
+			<name>maxlength</name>
+			<required>false</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Integer</type>
+			<description>The maximum number of characters that may be entered
+				in
+				this field.. Default is 50.</description>
+		</attribute>
+		<attribute>
+			<name>autocomplete</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If the value of this attribute is "off", render "off"
+				as
+				the value of the attribute. This indicates that the browser
+				should
+				disable its autocomplete feature for this component. This is
+				useful
+				for components that perform autocompletion and do not want
+				the
+				browser interfering. If this attribute is not set or the value
+				is
+				"on", render nothing.</description>
+		</attribute>
+		<attribute>
+			<name>mask</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Define mask format. Ex: 99/99/9999 / 9 (Number) -
+				A
+				(Character) - * (All)</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>inputTextCPF</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>input Text component for CPF values</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Component name, default: cpf</description>
+		</attribute>
+		<attribute>
+			<name>title</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Advisory title (hint) information about markup
+				elements
+				generated for this component.</description>
+		</attribute>
+		<!-- commons label -->
+		<attribute>
+			<name>accesskey</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>This attribute assigns an access key to an element.
+				An
+				access key is a single character from the document character set.
+				Note. Authors should consider the input method of the expected
+				reader when specifying an accesskey</description>
+		</attribute>
+		<attribute>
+			<name>label</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>the label to be used when rendering this component</description>
+		</attribute>
+		<!-- end commons label -->
+		<attribute>
+			<name>required</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "true", this component is checked for non-empty
+				input</description>
+		</attribute>
+		<attribute>
+			<name>ajaxValidation</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, will auto-validate this field onblue event</description>
+		</attribute>
+		<attribute>
+			<name>readonly</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, component will be readonly and disabled</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for this component</description>
+		</attribute>
+		<!-- end commons params -->
+	</tag>
+	<tag>
+		<name>inputTextCNPJ</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>input Text component for CNPJ values</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Component name, default: cpf</description>
+		</attribute>
+		<attribute>
+			<name>title</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Advisory title (hint) information about markup
+				elements
+				generated for this component.</description>
+		</attribute>
+		<!-- commons label -->
+		<attribute>
+			<name>accesskey</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>This attribute assigns an access key to an element.
+				An
+				access key is a single character from the document character set.
+				Note. Authors should consider the input method of the expected
+				reader when specifying an accesskey</description>
+		</attribute>
+		<attribute>
+			<name>label</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>the label to be used when rendering this component</description>
+		</attribute>
+		<!-- end commons label -->
+		<attribute>
+			<name>required</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "true", this component is checked for non-empty
+				input</description>
+		</attribute>
+		<attribute>
+			<name>ajaxValidation</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, will auto-validate this field onblue event</description>
+		</attribute>
+		<attribute>
+			<name>readonly</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, component will be readonly and disabled</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for this component</description>
+		</attribute>
+		<!-- end commons params -->
+	</tag>
+	<tag>
+		<name>inputTextArea</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>input Text component</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Component name,</description>
+		</attribute>
+		<attribute>
+			<name>title</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Advisory title (hint) information about markup
+				elements
+				generated for this component.</description>
+		</attribute>
+		<!-- commons label -->
+		<attribute>
+			<name>accesskey</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>This attribute assigns an access key to an element.
+				An
+				access key is a single character from the document character set.
+				Note. Authors should consider the input method of the expected
+				reader when specifying an accesskey</description>
+		</attribute>
+		<attribute>
+			<name>label</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>the label to be used when rendering this component</description>
+		</attribute>
+		<!-- end commons label -->
+		<attribute>
+			<name>required</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "true", this component is checked for non-empty
+				input</description>
+		</attribute>
+		<attribute>
+			<name>ajaxValidation</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, will auto-validate this field onblue event</description>
+		</attribute>
+		<attribute>
+			<name>readonly</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, component will be readonly and disabled</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for this component</description>
+		</attribute>
+		<attribute>
+			<name>emptyValueToNull</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if "false", empty Values won't be converted to null</description>
+		</attribute>
+		<!-- end commons params -->
+	</tag>
+	<tag>
+		<name>inputTextDate</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>input Text component for Date values</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Component name, default: date</description>
+		</attribute>
+		<attribute>
+			<name>title</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Advisory title (hint) information about markup
+				elements
+				generated for this component.</description>
+		</attribute>
+		<!-- commons label -->
+		<attribute>
+			<name>accesskey</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>This attribute assigns an access key to an element.
+				An
+				access key is a single character from the document character set.
+				Note. Authors should consider the input method of the expected
+				reader when specifying an accesskey</description>
+		</attribute>
+		<attribute>
+			<name>label</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>the label to be used when rendering this component</description>
+		</attribute>
+		<!-- end commons label -->
+		<attribute>
+			<name>required</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "true", this component is checked for non-empty
+				input</description>
+		</attribute>
+		<attribute>
+			<name>ajaxValidation</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, will auto-validate this field onblue event</description>
+		</attribute>
+		<attribute>
+			<name>readonly</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, component will be readonly and disabled</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for this component</description>
+		</attribute>
+		<!-- end commons params -->
+	</tag>
+	<tag>
+		<name>display</name>
+		<tag-class />
+		<body-content>JSP</body-content>
+		<description>input Text component</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>label</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>the label to be used when rendering this component</description>
+		</attribute>
+		<attribute>
+			<name>accesskey</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>This attribute assigns an access key to an element.
+				An
+				access key is a single character from the document character set.
+				Note. Authors should consider the input method of the expected
+				reader when specifying an accesskey</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>crudButtons</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>Renders 4 buttons (new, save or update, remove and
+			end)
+			for CRUD</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<!-- end commons params -->
+		<attribute>
+			<name>endViewId</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Defines wich viewID will be rendered when clicked
+				on end
+				button</description>
+		</attribute>
+		<attribute>
+			<name>homeComponent</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>XSeamEntityHome component</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>commandSearch</name>
+		<tag-class />
+		<body-content>JSP</body-content>
+		<description>Renders a find button</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<!-- end commons params -->
+	</tag>
+	<tag>
+		<name>dataTable</name>
+		<tag-class />
+		<body-content>JSP</body-content>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<!-- end commons params -->
+		<attribute>
+			<name>queryComponent</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>XSeamEntityQuery component</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Value for this table. This parameter is required if
+				no
+				queryComponent was specified.</description>
+		</attribute>
+		<attribute>
+			<name>var</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Name of a request-scope attribute under which the
+				model
+				data for the row selected by the current value of the
+				"rowIndex"
+				property (i.e. also the current value of the "rowData"
+				property) will
+				be exposed.</description>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Name of this component</description>
+		</attribute>
+		<attribute>
+			<name>rows</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Number os rendered rows</description>
+		</attribute>
+		<attribute>
+			<name>disableNoResultMessage</name>
+			<rtexprvalue>false</rtexprvalue>
+			<description>Disable the Message that indicates no Results in
+				table</description>
+		</attribute>
+		<attribute>
+			<name>exportToExcel</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If true, you can export this table do MS Excel</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>columnHeader</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>Render a column Header that can be ordered</description>
+		<attribute>
+			<name>serverOrder</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Renders a header link that performs server-side
+				ordenation. Must be specified property name</description>
+		</attribute>
+		<attribute>
+			<name>queryComponent</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>XSeamEntityQuery instance</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>column</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>Renders a dataTable column that can be server-side
+			or
+			client-side ordered.</description>
+		<attribute>
+			<name>header</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Header name</description>
+		</attribute>
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>serverOrder</name>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Renders a header link that performs server-side
+				ordenation. Must be specified property name</description>
+		</attribute>
+		<attribute>
+			<name>clientOrder</name>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Renders a header link that performs client-side
+				ordenation. Must be specified property name</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for this component</description>
+		</attribute>
+		<attribute>
+			<name>colspan</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Integer</type>
+			<description>colspan attribute of this column</description>
+		</attribute>
+		<attribute>
+			<name>rowspan</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Integer</type>
+			<description>rowspan attribute of this column</description>
+		</attribute>
+		<attribute>
+			<name>datePattern</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Renders a Date in specified pattern</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>columnLink</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>Renders a dataTable column with a link that can be
+			server-side or client-side ordered.</description>
+		<attribute>
+			<name>header</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Header name</description>
+		</attribute>
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>serverOrder</name>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Renders a header link that performs server-side
+				ordenation. Must be specified property name</description>
+		</attribute>
+		<attribute>
+			<name>clientOrder</name>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Renders a header link that performs client-side
+				ordenation. Must be specified property name</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for this component</description>
+		</attribute>
+		<attribute>
+			<name>colspan</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Integer</type>
+			<description>colspan attribute of this column</description>
+		</attribute>
+		<attribute>
+			<name>rowspan</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Integer</type>
+			<description>rowspan attribute of this column</description>
+		</attribute>
+		<attribute>
+			<name>datePattern</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Renders a Date in specified pattern</description>
+		</attribute>
+		<attribute>
+			<name>link</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Link destination</description>
+		</attribute>
+		<attribute>
+			<name>target</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Target attribute from link</description>
+		</attribute>
+		<attribute>
+			<name>graphicImage</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>URL path to an Image link</description>
+		</attribute>
+		<attribute>
+			<name>viewId</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>viewId of an EntityHome component</description>
+		</attribute>
+		<attribute>
+			<name>propertyId</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Determines the property name that will passed
+				as request
+				parameter (rid) to the viewId</description>
+		</attribute>
+		<attribute>
+			<name>action</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Action that will be called</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>columnEditRemove</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>Renders a dataTable column that can be server-side
+			or
+			client-side ordered. This column will be used for Edit and Remove
+			operation</description>
+		<attribute>
+			<name>header</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Header name</description>
+		</attribute>
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>removeTitle</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Hint for Remove link</description>
+		</attribute>
+		<attribute>
+			<name>editTitle</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Hint for Edit Link</description>
+		</attribute>
+		<attribute>
+			<name>colspan</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Integer</type>
+			<description>colspan attribute of this column</description>
+		</attribute>
+		<attribute>
+			<name>rowspan</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Integer</type>
+			<description>rowspan attribute of this column</description>
+		</attribute>
+		<attribute>
+			<name>editEntity</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if "true" will permit to edit an Entity from
+				dataTable.
+				Parameter viewId must also be specified</description>
+		</attribute>
+		<attribute>
+			<name>viewId</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>viewId of an EntityHome component</description>
+		</attribute>
+		<attribute>
+			<name>propertyId</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Determines the property name that will passed
+				as request
+				parameter (rid) to the viewId</description>
+		</attribute>
+		<attribute>
+			<name>removeEntity</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if "true" will permit to remove an Entity from
+				dataTable. Parameter homeComponent must also be specified</description>
+		</attribute>
+		<attribute>
+			<name>homeComponent</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>An XseamEntityHome component instance. This parameter
+				is
+				only needed when 'removeEntity' parameter is set to 'true'</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>commandNewRegister</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>Renders a button that when clicked will redirect
+			to
+			specified 'newRecordViewId' parameter</description>
+		<attribute>
+			<name>newRecordViewId</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>View ID to be rendered when clicked</description>
+		</attribute>
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>divButtons</name>
+		<tag-class />
+		<body-content>JSP</body-content>
+		<description>Renders a HTML Div for Command Buttons</description>
+	</tag>
+	<tag>
+		<name>selectOneMenu</name>
+		<tag-class />
+		<body-content>JSP</body-content>
+		<description>Render an HTML "select" element. Render the
+			clientId of
+			the component as the value of the "name" attribute. If
+			the
+			"styleClass" attribute is specified, render its value as the
+			value of
+			the "class" attribute on the "select" element. If the
+			component to be
+			rendered is a UISelectMany, render "true" as the
+			value of the
+			"multiple" attribute. Use the number of items as the
+			value of the
+			"size" attribute.</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Component name,</description>
+		</attribute>
+		<attribute>
+			<name>title</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Advisory title (hint) information about markup
+				elements
+				generated for this component.</description>
+		</attribute>
+		<!-- commons label -->
+		<attribute>
+			<name>accesskey</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>This attribute assigns an access key to an element.
+				An
+				access key is a single character from the document character set.
+				Note. Authors should consider the input method of the expected
+				reader when specifying an accesskey</description>
+		</attribute>
+		<attribute>
+			<name>label</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>the label to be used when rendering this component</description>
+		</attribute>
+		<!-- end commons label -->
+		<attribute>
+			<name>ajaxValidation</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, will auto-validate this field onblue event</description>
+		</attribute>
+		<attribute>
+			<name>readonly</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, component will be readonly and disabled</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for this component</description>
+		</attribute>
+		<!-- SelectItems Parameters -->
+		<attribute>
+			<name>items</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The value for this selectItems</description>
+		</attribute>
+		<attribute>
+			<name>itemsLabel</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The Label property for this selectItems</description>
+		</attribute>
+		<attribute>
+			<name>itemsType</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>specifies the (optional) converter for this
+				Component.
+				Could be 'enum' or 'entity'</description>
+		</attribute>
+		<!--  ReRender -->
+		<attribute>
+			<name>reRender</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>specifies the (optional) component to be Ajax
+				reRendered</description>
+		</attribute>
+		<attribute>
+			<name>actionBean</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>specifies the (optional) component where an
+				Ajax action
+				will be called. If this parameter is used, ajaxAction
+				must be filled.</description>
+		</attribute>
+		<attribute>
+			<name>ajaxAction</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>specifies the (optional) method from the
+				'actionBean'
+				where an Ajax action will be called. If this parameter
+				is used,
+				actionBean must be filled.</description>
+		</attribute>
+		<attribute>
+			<name>required</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "true", this component is checked for non-empty
+				input</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>selectCheckBox</name>
+		<tag-class />
+		<body-content>JSP</body-content>
+		<description>Render an HTML "checkbox" element. Render the
+			clientId of
+			the component as the value of the "name" attribute. If
+			the
+			"styleClass" attribute is specified, render its value as the
+			value of
+			the "class" attribute on the "checkbox" element.</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Component name,</description>
+		</attribute>
+		<attribute>
+			<name>title</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Advisory title (hint) information about markup
+				elements
+				generated for this component.</description>
+		</attribute>
+		<!-- commons label -->
+		<attribute>
+			<name>accesskey</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>This attribute assigns an access key to an element.
+				An
+				access key is a single character from the document character set.
+				Note. Authors should consider the input method of the expected
+				reader when specifying an accesskey</description>
+		</attribute>
+		<attribute>
+			<name>label</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>the label to be used when rendering this component</description>
+		</attribute>
+		<!-- end commons label -->
+		<attribute>
+			<name>ajaxValidation</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, will auto-validate this field onblue event</description>
+		</attribute>
+		<attribute>
+			<name>readonly</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, component will be readonly and disabled</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for this component</description>
+		</attribute>
+		<!--  ReRender -->
+		<attribute>
+			<name>reRender</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>specifies the (optional) component to be Ajax
+				reRendered</description>
+		</attribute>
+		<attribute>
+			<name>actionBean</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>specifies the (optional) component where an
+				Ajax action
+				will be called. If this parameter is used, ajaxAction
+				must be filled.</description>
+		</attribute>
+		<attribute>
+			<name>ajaxAction</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>specifies the (optional) method from the
+				'actionBean'
+				where an Ajax action will be called. If this parameter
+				is used,
+				actionBean must be filled.</description>
+		</attribute>
+		<attribute>
+			<name>required</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "true", this component is checked for non-empty
+				input</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>selectOneRadio</name>
+		<tag-class />
+		<body-content>JSP</body-content>
+		<description>Render an HTML "select" element. Render the
+			clientId of
+			the component as the value of the "name" attribute. If
+			the
+			"styleClass" attribute is specified, render its value as the
+			value of
+			the "class" attribute on the "select" element. If the
+			component to be
+			rendered is a UISelectMany, render "true" as the
+			value of the
+			"multiple" attribute. Use the number of items as the
+			value of the
+			"size" attribute.</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Component name,</description>
+		</attribute>
+		<attribute>
+			<name>title</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Advisory title (hint) information about markup
+				elements
+				generated for this component.</description>
+		</attribute>
+		<!-- commons label -->
+		<attribute>
+			<name>accesskey</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>This attribute assigns an access key to an element.
+				An
+				access key is a single character from the document character set.
+				Note. Authors should consider the input method of the expected
+				reader when specifying an accesskey</description>
+		</attribute>
+		<attribute>
+			<name>label</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>the label to be used when rendering this component</description>
+		</attribute>
+		<!-- end commons label -->
+		<attribute>
+			<name>ajaxValidation</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, will auto-validate this field onblue event</description>
+		</attribute>
+		<attribute>
+			<name>readonly</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, component will be readonly and disabled</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for this component</description>
+		</attribute>
+		<!-- SelectItems Parameters -->
+		<attribute>
+			<name>items</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The value for this selectItems</description>
+		</attribute>
+		<attribute>
+			<name>itemsLabel</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The Label property for this selectItems</description>
+		</attribute>
+		<attribute>
+			<name>itemsType</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>specifies the (optional) converter for this
+				Component.
+				Could be 'enum' or 'entity'</description>
+		</attribute>
+		<!--  ReRender -->
+		<attribute>
+			<name>reRender</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>specifies the (optional) component to be Ajax
+				reRendered</description>
+		</attribute>
+		<attribute>
+			<name>actionBean</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>specifies the (optional) component where an
+				Ajax action
+				will be called. If this parameter is used, ajaxAction
+				must be filled.</description>
+		</attribute>
+		<attribute>
+			<name>ajaxAction</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>specifies the (optional) method from the
+				'actionBean'
+				where an Ajax action will be called. If this parameter
+				is used,
+				actionBean must be filled.</description>
+		</attribute>
+		<attribute>
+			<name>required</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "true", this component is checked for non-empty
+				input</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>selectOneState</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>Renders a HTML option List with States</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Component name, Default to state</description>
+		</attribute>
+		<attribute>
+			<name>title</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Advisory title (hint) information about markup
+				elements
+				generated for this component.</description>
+		</attribute>
+		<!-- commons label -->
+		<attribute>
+			<name>accesskey</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>This attribute assigns an access key to an element.
+				An
+				access key is a single character from the document character set.
+				Note. Authors should consider the input method of the expected
+				reader when specifying an accesskey</description>
+		</attribute>
+		<attribute>
+			<name>label</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>the label to be used when rendering this component.
+				Default to State:</description>
+		</attribute>
+		<!-- end commons label -->
+		<attribute>
+			<name>readonly</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, component will be readonly and disabled</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for this component</description>
+		</attribute>
+		<!--  ReRender -->
+		<attribute>
+			<name>reRender</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>specifies the (optional) component to be Ajax
+				reRendered</description>
+		</attribute>
+		<attribute>
+			<name>actionBean</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>specifies the (optional) component where an
+				Ajax action
+				will be called. If this parameter is used, ajaxAction
+				must be filled.</description>
+		</attribute>
+		<attribute>
+			<name>ajaxAction</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>specifies the (optional) method from the
+				'actionBean'
+				where an Ajax action will be called. If this parameter
+				is used,
+				actionBean must be filled.</description>
+		</attribute>
+		<attribute>
+			<name>required</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "true", this component is checked for non-empty
+				input</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>selectOneCity</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>Renders a HTML option List with Cities</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Component name, Default to city</description>
+		</attribute>
+		<attribute>
+			<name>title</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Advisory title (hint) information about markup
+				elements
+				generated for this component.</description>
+		</attribute>
+		<!-- commons label -->
+		<attribute>
+			<name>accesskey</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>This attribute assigns an access key to an element.
+				An
+				access key is a single character from the document character set.
+				Note. Authors should consider the input method of the expected
+				reader when specifying an accesskey</description>
+		</attribute>
+		<attribute>
+			<name>label</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>the label to be used when rendering this component.
+				Default to City:</description>
+		</attribute>
+		<!-- end commons label -->
+		<attribute>
+			<name>readonly</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, component will be readonly and disabled</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for this component</description>
+		</attribute>
+		<attribute>
+			<name>selectedState</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for the State</description>
+		</attribute>
+		<attribute>
+			<name>required</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "true", this component is checked for non-empty
+				input</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>selectOneEyesColor</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>Renders a HTML option List with Eyes Color</description>
+		<!--  commons params -->
+		<attribute>
+			<name>rendered</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "false", this component is not rendered</description>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Component name, Default to eyesColor</description>
+		</attribute>
+		<attribute>
+			<name>title</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Advisory title (hint) information about markup
+				elements
+				generated for this component.</description>
+		</attribute>
+		<!-- commons label -->
+		<attribute>
+			<name>accesskey</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>This attribute assigns an access key to an element.
+				An
+				access key is a single character from the document character set.
+				Note. Authors should consider the input method of the expected
+				reader when specifying an accesskey</description>
+		</attribute>
+		<attribute>
+			<name>label</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>the label to be used when rendering this component.
+				Default to Eyes Color:</description>
+		</attribute>
+		<!-- end commons label -->
+		<attribute>
+			<name>readonly</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>if true, component will be readonly and disabled</description>
+		</attribute>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The current value for this component</description>
+		</attribute>
+		<attribute>
+			<name>required</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.Boolean</type>
+			<description>If "true", this component is checked for non-empty
+				input</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>ajaxStatus</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>Renders a ajax modal painel</description>
+		<attribute>
+			<name>title</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The title of ajax status modal panel</description>
+		</attribute>
+		<attribute>
+			<name>text</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>The message text of ajax status modal panel</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>form</name>
+		<tag-class />
+		<body-content>empty</body-content>
+		<description>Renders a Form</description>
+		<attribute>
+			<name>name</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Component name,</description>
+		</attribute>
+		<attribute>
+			<name>prependId</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>boolean</type>
+			<description>Show prependId.</description>
+		</attribute>
+		<attribute>
+			<name>enctype</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>Enctype</description>
+		</attribute>
+		<attribute>
+			<name>messageType</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>if "modal" , the messages will appear in a modal pannel</description>
+		</attribute>
+		<attribute>
+			<name>title</name>
+			<rtexprvalue>false</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>if messageType is "modal" , the "title" will set the
+				modal title</description>
+		</attribute>
+
+
+
+
+	</tag>
+</taglib>

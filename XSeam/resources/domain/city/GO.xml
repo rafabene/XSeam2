@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="5200050" description="Abadia de Goias" />
+	<domain id="5200100" description="Abadiânia" />
+	<domain id="5200134" description="Acreúna" />
+	<domain id="5200159" description="Adelândia" />
+	<domain id="5200175" description="Água Fria de Goiás" />
+	<domain id="5200209" description="Água Limpa" />
+	<domain id="5200258" description="Águas Lindas de Goiás" />
+	<domain id="5200308" description="Alexânia" />
+	<domain id="5200506" description="Aloândia" />
+	<domain id="5200555" description="Alto Horizonte" />
+	<domain id="5200605" description="Alto Paraíso de Goiás" />
+	<domain id="5200803" description="Alvorada do Norte" />
+	<domain id="5200829" description="Amaralina" />
+	<domain id="5200852" description="Americano do Brasil" />
+	<domain id="5200902" description="Amorinópolis" />
+	<domain id="5201108" description="Anápolis" />
+	<domain id="5201207" description="Anhanguera" />
+	<domain id="5201306" description="Anicuns" />
+	<domain id="5201405" description="Aparecida de Goiânia" />
+	<domain id="5201454" description="Aparecida do Rio Doce" />
+	<domain id="5201504" description="Aporé" />
+	<domain id="5201603" description="Araçu" />
+	<domain id="5201702" description="Aragarças" />
+	<domain id="5201801" description="Aragoiânia" />
+	<domain id="5202155" description="Araguapaz" />
+	<domain id="5202353" description="Arenópolis" />
+	<domain id="5202502" description="Aruanã" />
+	<domain id="5202601" description="Aurilândia" />
+	<domain id="5202809" description="Avelinópolis" />
+	<domain id="5203104" description="Baliza" />
+	<domain id="5203203" description="Barro Alto" />
+	<domain id="5203302" description="Bela Vista de Goiás" />
+	<domain id="5203401" description="Bom Jardim de Goiás" />
+	<domain id="5203500" description="Bom Jesus de Goiás" />
+	<domain id="5203559" description="Bonfinópolis" />
+	<domain id="5203575" description="Bonópolis" />
+	<domain id="5203609" description="Brazabrantes" />
+	<domain id="5203807" description="Britânia" />
+	<domain id="5203906" description="Buriti Alegre" />
+	<domain id="5203939" description="Buriti de Goiás" />
+	<domain id="5203962" description="Buritinópolis" />
+	<domain id="5204003" description="Cabeceiras" />
+	<domain id="5204102" description="Cachoeira Alta" />
+	<domain id="5204201" description="Cachoeira de Goiás" />
+	<domain id="5204250" description="Cachoeira Dourada" />
+	<domain id="5204300" description="Caçu" />
+	<domain id="5204409" description="Caiapônia" />
+	<domain id="5204508" description="Caldas Novas" />
+	<domain id="5204557" description="Caldazinha" />
+	<domain id="5204607" description="Campestre de Goiás" />
+	<domain id="5204656" description="Campinaçu" />
+	<domain id="5204706" description="Campinorte" />
+	<domain id="5204805" description="Campo Alegre de Goiás" />
+	<domain id="5204854" description="Campo Limpo de Goiás" />
+	<domain id="5204904" description="Campos Belos" />
+	<domain id="5204953" description="Campos Verdes" />
+	<domain id="5205000" description="Carmo do Rio Verde" />
+	<domain id="5205059" description="Castelândia" />
+	<domain id="5205109" description="Catalão" />
+	<domain id="5205208" description="Caturaí" />
+	<domain id="5205307" description="Cavalcante" />
+	<domain id="5205406" description="Ceres" />
+	<domain id="5205455" description="Cezarina" />
+	<domain id="5205471" description="Chapadão do Céu" />
+	<domain id="5205497" description="Cidade Ocidental" />
+	<domain id="5205513" description="Cocalzinho de Goiás" />
+	<domain id="5205521" description="Colinas do Sul" />
+	<domain id="5205703" description="Córrego do Ouro" />
+	<domain id="5205802" description="Corumbá de Goiás" />
+	<domain id="5205901" description="Corumbaíba" />
+	<domain id="5206206" description="Cristalina" />
+	<domain id="5206305" description="Cristianópolis" />
+	<domain id="5206404" description="Crixás" />
+	<domain id="5206503" description="Cromínia" />
+	<domain id="5206602" description="Cumari" />
+	<domain id="5206701" description="Damianópolis" />
+	<domain id="5206800" description="Damolândia" />
+	<domain id="5206909" description="Davinópolis" />
+	<domain id="5207105" description="Diorama" />
+	<domain id="5208301" description="Divinópolis de Goiás" />
+	<domain id="5207253" description="Doverlândia" />
+	<domain id="5207352" description="Edealina" />
+	<domain id="5207402" description="Edéia" />
+	<domain id="5207501" description="Estrela do Norte" />
+	<domain id="5207535" description="Faina" />
+	<domain id="5207600" description="Fazenda Nova" />
+	<domain id="5207808" description="Firminópolis" />
+	<domain id="5207907" description="Flores de Goiás" />
+	<domain id="5208004" description="Formosa" />
+	<domain id="5208103" description="Formoso" />
+	<domain id="5208152" description="Gameleira de Goiás" />
+	<domain id="5208400" description="Goianápolis" />
+	<domain id="5208509" description="Goiandira" />
+	<domain id="5208608" description="Goianésia" />
+	<domain id="5208707" description="Goiânia" />
+	<domain id="5208806" description="Goianira" />
+	<domain id="5208905" description="Goiás" />
+	<domain id="5209101" description="Goiatuba" />
+	<domain id="5209150" description="Gouvelândia" />
+	<domain id="5209200" description="Guapó" />
+	<domain id="5209291" description="Guaraíta" />
+	<domain id="5209408" description="Guarani de Goiás" />
+	<domain id="5209457" description="Guarinos" />
+	<domain id="5209606" description="Heitoraí" />
+	<domain id="5209705" description="Hidrolândia" />
+	<domain id="5209804" description="Hidrolina" />
+	<domain id="5209903" description="Iaciara" />
+	<domain id="5209937" description="Inaciolândia" />
+	<domain id="5209952" description="Indiara" />
+	<domain id="5210000" description="Inhumas" />
+	<domain id="5210109" description="Ipameri" />
+	<domain id="5210158" description="Ipiranga de Goiás" />
+	<domain id="5210208" description="Iporá" />
+	<domain id="5210307" description="Israelândia" />
+	<domain id="5210406" description="Itaberaí" />
+	<domain id="5210562" description="Itaguari" />
+	<domain id="5210604" description="Itaguaru" />
+	<domain id="5210802" description="Itajá" />
+	<domain id="5210901" description="Itapaci" />
+	<domain id="5211008" description="Itapirapuã" />
+	<domain id="5211206" description="Itapuranga" />
+	<domain id="5211305" description="Itarumã" />
+	<domain id="5211404" description="Itauçu" />
+	<domain id="5211503" description="Itumbiara" />
+	<domain id="5211602" description="Ivolândia" />
+	<domain id="5211701" description="Jandaia" />
+	<domain id="5211800" description="Jaraguá" />
+	<domain id="5211909" description="Jataí" />
+	<domain id="5212006" description="Jaupaci" />
+	<domain id="5212055" description="Jesúpolis" />
+	<domain id="5212105" description="Joviânia" />
+	<domain id="5212204" description="Jussara" />
+	<domain id="5212253" description="Lagoa Santa" />
+	<domain id="5212303" description="Leopoldo de Bulhões" />
+	<domain id="5212501" description="Luziânia" />
+	<domain id="5212600" description="Mairipotaba" />
+	<domain id="5212709" description="Mambaí" />
+	<domain id="5212808" description="Mara Rosa" />
+	<domain id="5212907" description="Marzagão" />
+	<domain id="5212956" description="Matrinchã" />
+	<domain id="5213004" description="Maurilândia" />
+	<domain id="5213053" description="Mimoso de Goiás" />
+	<domain id="5213087" description="Minaçu" />
+	<domain id="5213103" description="Mineiros" />
+	<domain id="5213400" description="Moiporá" />
+	<domain id="5213509" description="Monte Alegre de Goiás" />
+	<domain id="5213707" description="Montes Claros de Goiás" />
+	<domain id="5213756" description="Montividiu" />
+	<domain id="5213772" description="Montividiu do Norte" />
+	<domain id="5213806" description="Morrinhos" />
+	<domain id="5213855" description="Morro Agudo de Goiás" />
+	<domain id="5213905" description="Mossâmedes" />
+	<domain id="5214002" description="Mozarlândia" />
+	<domain id="5214051" description="Mundo Novo" />
+	<domain id="5214101" description="Mutunópolis" />
+	<domain id="5214408" description="Nazário" />
+	<domain id="5214507" description="Nerópolis" />
+	<domain id="5214606" description="Niquelândia" />
+	<domain id="5214705" description="Nova América" />
+	<domain id="5214804" description="Nova Aurora" />
+	<domain id="5214838" description="Nova Crixás" />
+	<domain id="5214861" description="Nova Glória" />
+	<domain id="5214879" description="Nova Iguaçu de Goiás" />
+	<domain id="5214903" description="Nova Roma" />
+	<domain id="5215009" description="Nova Veneza" />
+	<domain id="5215207" description="Novo Brasil" />
+	<domain id="5215231" description="Novo Gama" />
+	<domain id="5215256" description="Novo Planalto" />
+	<domain id="5215306" description="Orizona" />
+	<domain id="5215405" description="Ouro Verde de Goiás" />
+	<domain id="5215504" description="Ouvidor" />
+	<domain id="5215603" description="Padre Bernardo" />
+	<domain id="5215652" description="Palestina de Goiás" />
+	<domain id="5215702" description="Palmeiras de Goiás" />
+	<domain id="5215801" description="Palmelo" />
+	<domain id="5215900" description="Palminópolis" />
+	<domain id="5216007" description="Panamá" />
+	<domain id="5216304" description="Paranaiguara" />
+	<domain id="5216403" description="Paraúna" />
+	<domain id="5216452" description="Perolândia" />
+	<domain id="5216809" description="Petrolina de Goiás" />
+	<domain id="5216908" description="Pilar de Goiás" />
+	<domain id="5217104" description="Piracanjuba" />
+	<domain id="5217203" description="Piranhas" />
+	<domain id="5217302" description="Pirenópolis" />
+	<domain id="5217401" description="Pires do Rio" />
+	<domain id="5217609" description="Planaltina" />
+	<domain id="5217708" description="Pontalina" />
+	<domain id="5218003" description="Porangatu" />
+	<domain id="5218052" description="Porteirão" />
+	<domain id="5218102" description="Portelândia" />
+	<domain id="5218300" description="Posse" />
+	<domain id="5218391" description="Professor Jamil" />
+	<domain id="5218508" description="Quirinópolis" />
+	<domain id="5218607" description="Rialma" />
+	<domain id="5218706" description="Rianápolis" />
+	<domain id="5218789" description="Rio Quente" />
+	<domain id="5218805" description="Rio Verde" />
+	<domain id="5218904" description="Rubiataba" />
+	<domain id="5219001" description="Sanclerlândia" />
+	<domain id="5219100" description="Santa Bárbara de Goiás" />
+	<domain id="5219209" description="Santa Cruz de Goiás" />
+	<domain id="5219258" description="Santa Fé de Goiás" />
+	<domain id="5219308" description="Santa Helena de Goiás" />
+	<domain id="5219357" description="Santa Isabel" />
+	<domain id="5219407" description="Santa Rita do Araguaia" />
+	<domain id="5219456" description="Santa Rita do Novo Destino" />
+	<domain id="5219506" description="Santa Rosa de Goiás" />
+	<domain id="5219605" description="Santa Tereza de Goiás" />
+	<domain id="5219704" description="Santa Terezinha de Goiás" />
+	<domain id="5219712" description="Santo Antônio da Barra" />
+	<domain id="5219738" description="Santo Antônio de Goiás" />
+	<domain id="5219753" description="Santo Antônio do Descoberto" />
+	<domain id="5219803" description="São Domingos" />
+	<domain id="5219902" description="São Francisco de Goiás" />
+	<domain id="5220009" description="São João d'Aliança" />
+	<domain id="5220058" description="São João da Paraúna" />
+	<domain id="5220108" description="São Luís de Montes Belos" />
+	<domain id="5220157" description="São Luíz do Norte" />
+	<domain id="5220207" description="São Miguel do Araguaia" />
+	<domain id="5220264" description="São Miguel do Passa Quatro" />
+	<domain id="5220280" description="São Patrício" />
+	<domain id="5220405" description="São Simão" />
+	<domain id="5220454" description="Senador Canedo" />
+	<domain id="5220504" description="Serranópolis" />
+	<domain id="5220603" description="Silvânia" />
+	<domain id="5220686" description="Simolândia" />
+	<domain id="5220702" description="Sítio d'Abadia" />
+	<domain id="5221007" description="Taquaral de Goiás" />
+	<domain id="5221080" description="Teresina de Goiás" />
+	<domain id="5221197" description="Terezópolis de Goiás" />
+	<domain id="5221304" description="Três Ranchos" />
+	<domain id="5221403" description="Trindade" />
+	<domain id="5221452" description="Trombas" />
+	<domain id="5221502" description="Turvânia" />
+	<domain id="5221551" description="Turvelândia" />
+	<domain id="5221577" description="Uirapuru" />
+	<domain id="5221601" description="Uruaçu" />
+	<domain id="5221700" description="Uruana" />
+	<domain id="5221809" description="Urutaí" />
+	<domain id="5221858" description="Valparaíso de Goiás" />
+	<domain id="5221908" description="Varjão" />
+	<domain id="5222005" description="Vianópolis" />
+	<domain id="5222054" description="Vicentinópolis" />
+	<domain id="5222203" description="Vila Boa" />
+	<domain id="5222302" description="Vila Propício" />
+</tns:domain>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich" xmlns:x="http://www.xseam.org">
+<ui:composition>
+
+	<x:columnTemplate>
+		<!-- Here goes Column Content -->
+		<h:outputText value="#{value}">
+			<c:if test="#{not empty datePattern}">
+				<s:convertDateTime pattern="#{datePattern}" />
+			</c:if>
+		</h:outputText>
+
+	</x:columnTemplate>
+	
+</ui:composition>
+</html>

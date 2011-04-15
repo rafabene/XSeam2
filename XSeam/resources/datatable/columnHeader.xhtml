@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:x="http://www.xseam.org"> 
+<ui:composition>
+		<f:facet name="header">
+			<c:choose>
+				<c:when test="#{empty serverOrder}">
+					<h:panelGroup>
+					<h:outputText value="#{header}" />
+					</h:panelGroup>
+				</c:when>
+				<c:otherwise>
+					<h:panelGroup>
+					  	<s:link>
+			           		<f:param name="order" value="#{queryComponent.order == x:concat(serverOrder,' asc')? x:concat(serverOrder,' desc'): x:concat(serverOrder,' asc')}"/>
+							<h:outputText value="#{x:getDefaultValue(header,'')}" />
+			          	</s:link>
+						<s:graphicImage  value="/image/upSorted.gif" rendered="#{queryComponent.order eq x:concat(serverOrder,' asc')}" />
+						<s:graphicImage value="/image/downSorted.gif" rendered="#{queryComponent.order eq x:concat(serverOrder,' desc')}" />
+		          	</h:panelGroup>
+				</c:otherwise>
+			</c:choose>
+		</f:facet>
+</ui:composition>
+</html>

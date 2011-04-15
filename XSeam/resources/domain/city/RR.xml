@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="1400050" description="Alto Alegre" />
+	<domain id="1400027" description="Amajari" />
+	<domain id="1400100" description="Boa Vista" />
+	<domain id="1400159" description="Bonfim" />
+	<domain id="1400175" description="Cantá" />
+	<domain id="1400209" description="Caracaraí" />
+	<domain id="1400233" description="Caroebe" />
+	<domain id="1400282" description="Iracema" />
+	<domain id="1400308" description="Mucajaí" />
+	<domain id="1400407" description="Normandia" />
+	<domain id="1400456" description="Pacaraima" />
+	<domain id="1400472" description="Rorainópolis" />
+	<domain id="1400506" description="São João da Baliza" />
+	<domain id="1400605" description="São Luiz" />
+	<domain id="1400704" description="Uiramutã" />
+</tns:domain>

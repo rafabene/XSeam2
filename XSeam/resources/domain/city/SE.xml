@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="2800100" description="Amparo de São Francisco" />
+	<domain id="2800209" description="Aquidabã" />
+	<domain id="2800308" description="Aracaju" />
+	<domain id="2800407" description="Arauá" />
+	<domain id="2800506" description="Areia Branca" />
+	<domain id="2800605" description="Barra dos Coqueiros" />
+	<domain id="2800670" description="Boquim" />
+	<domain id="2800704" description="Brejo Grande" />
+	<domain id="2801009" description="Campo do Brito" />
+	<domain id="2801108" description="Canhoba" />
+	<domain id="2801207" description="Canindé de São Francisco" />
+	<domain id="2801306" description="Capela" />
+	<domain id="2801405" description="Carira" />
+	<domain id="2801504" description="Carmópolis" />
+	<domain id="2801603" description="Cedro de São João" />
+	<domain id="2801702" description="Cristinápolis" />
+	<domain id="2801900" description="Cumbe" />
+	<domain id="2802007" description="Divina Pastora" />
+	<domain id="2802106" description="Estância" />
+	<domain id="2802205" description="Feira Nova" />
+	<domain id="2802304" description="Frei Paulo" />
+	<domain id="2802403" description="Gararu" />
+	<domain id="2802502" description="General Maynard" />
+	<domain id="2802601" description="Gracho Cardoso" />
+	<domain id="2802700" description="Ilha das Flores" />
+	<domain id="2802809" description="Indiaroba" />
+	<domain id="2802908" description="Itabaiana" />
+	<domain id="2803005" description="Itabaianinha" />
+	<domain id="2803104" description="Itabi" />
+	<domain id="2803203" description="Itaporanga d'Ajuda" />
+	<domain id="2803302" description="Japaratuba" />
+	<domain id="2803401" description="Japoatã" />
+	<domain id="2803500" description="Lagarto" />
+	<domain id="2803609" description="Laranjeiras" />
+	<domain id="2803708" description="Macambira" />
+	<domain id="2803807" description="Malhada dos Bois" />
+	<domain id="2803906" description="Malhador" />
+	<domain id="2804003" description="Maruim" />
+	<domain id="2804102" description="Moita Bonita" />
+	<domain id="2804201" description="Monte Alegre de Sergipe" />
+	<domain id="2804300" description="Muribeca" />
+	<domain id="2804409" description="Neópolis" />
+	<domain id="2804458" description="Nossa Senhora Aparecida" />
+	<domain id="2804508" description="Nossa Senhora da Glória" />
+	<domain id="2804607" description="Nossa Senhora das Dores" />
+	<domain id="2804706" description="Nossa Senhora de Lourdes" />
+	<domain id="2804805" description="Nossa Senhora do Socorro" />
+	<domain id="2804904" description="Pacatuba" />
+	<domain id="2805000" description="Pedra Mole" />
+	<domain id="2805109" description="Pedrinhas" />
+	<domain id="2805208" description="Pinhão" />
+	<domain id="2805307" description="Pirambu" />
+	<domain id="2805406" description="Poço Redondo" />
+	<domain id="2805505" description="Poço Verde" />
+	<domain id="2805604" description="Porto da Folha" />
+	<domain id="2805703" description="Propriá" />
+	<domain id="2805802" description="Riachão do Dantas" />
+	<domain id="2805901" description="Riachuelo" />
+	<domain id="2806008" description="Ribeirópolis" />
+	<domain id="2806107" description="Rosário do Catete" />
+	<domain id="2806206" description="Salgado" />
+	<domain id="2806305" description="Santa Luzia do Itanhy" />
+	<domain id="2806503" description="Santa Rosa de Lima" />
+	<domain id="2806404" description="Santana do São Francisco" />
+	<domain id="2806602" description="Santo Amaro das Brotas" />
+	<domain id="2806701" description="São Cristóvão" />
+	<domain id="2806800" description="São Domingos" />
+	<domain id="2806909" description="São Francisco" />
+	<domain id="2807006" description="São Miguel do Aleixo" />
+	<domain id="2807105" description="Simão Dias" />
+	<domain id="2807204" description="Siriri" />
+	<domain id="2807303" description="Telha" />
+	<domain id="2807402" description="Tobias Barreto" />
+	<domain id="2807501" description="Tomar do Geru" />
+	<domain id="2807600" description="Umbaúba" />
+</tns:domain>

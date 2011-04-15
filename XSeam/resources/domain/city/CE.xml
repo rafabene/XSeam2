@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="2300101" description="Abaiara" />
+	<domain id="2300150" description="Acarapé" />
+	<domain id="2300200" description="Acaraú" />
+	<domain id="2300309" description="Acopiara" />
+	<domain id="2300408" description="Aiuaba" />
+	<domain id="2300507" description="Alcântaras" />
+	<domain id="2300606" description="Altaneira" />
+	<domain id="2300705" description="Alto Santo" />
+	<domain id="2300754" description="Amontada" />
+	<domain id="2300804" description="Antonina do Norte" />
+	<domain id="2300903" description="Apuiarés" />
+	<domain id="2301000" description="Aquiraz" />
+	<domain id="2301109" description="Aracati" />
+	<domain id="2301208" description="Aracoiaba" />
+	<domain id="2301257" description="Ararendá" />
+	<domain id="2301307" description="Araripe" />
+	<domain id="2301406" description="Aratuba" />
+	<domain id="2301505" description="Arneiroz" />
+	<domain id="2301604" description="Assaré" />
+	<domain id="2301703" description="Aurora" />
+	<domain id="2301802" description="Baixio" />
+	<domain id="2301851" description="Banabuiú" />
+	<domain id="2301901" description="Barbalha" />
+	<domain id="2301950" description="Barreira" />
+	<domain id="2302008" description="Barro" />
+	<domain id="2302057" description="Barroquinha" />
+	<domain id="2302107" description="Baturité" />
+	<domain id="2302206" description="Beberibe" />
+	<domain id="2302305" description="Bela Cruz" />
+	<domain id="2302404" description="Boa Viagem" />
+	<domain id="2302503" description="Brejo Santo" />
+	<domain id="2302602" description="Camocim" />
+	<domain id="2302701" description="Campos Sales" />
+	<domain id="2302800" description="Canindé" />
+	<domain id="2302909" description="Capistrano" />
+	<domain id="2303006" description="Caridade" />
+	<domain id="2303105" description="Cariré" />
+	<domain id="2303204" description="Caririaçu" />
+	<domain id="2303303" description="Cariús" />
+	<domain id="2303402" description="Carnaubal" />
+	<domain id="2303501" description="Cascavel" />
+	<domain id="2303600" description="Catarina" />
+	<domain id="2303659" description="Catunda" />
+	<domain id="2303709" description="Caucaia" />
+	<domain id="2303808" description="Cedro" />
+	<domain id="2303907" description="Chaval" />
+	<domain id="2303931" description="Choró" />
+	<domain id="2303956" description="Chorozinho" />
+	<domain id="2304004" description="Coreaú" />
+	<domain id="2304103" description="Crateús" />
+	<domain id="2304202" description="Crato" />
+	<domain id="2304236" description="Croatá" />
+	<domain id="2304251" description="Cruz" />
+	<domain id="2304269" description="Deputado Irapuan Pinheiro" />
+	<domain id="2304277" description="Ererê" />
+	<domain id="2304285" description="Eusébio" />
+	<domain id="2304301" description="Farias Brito" />
+	<domain id="2304350" description="Forquilha" />
+	<domain id="2304400" description="Fortaleza" />
+	<domain id="2304459" description="Fortim" />
+	<domain id="2304509" description="Frecheirinha" />
+	<domain id="2304608" description="General Sampaio" />
+	<domain id="2304657" description="Graça" />
+	<domain id="2304707" description="Granja" />
+	<domain id="2304806" description="Granjeiro" />
+	<domain id="2304905" description="Groaíras" />
+	<domain id="2304954" description="Guaiúba" />
+	<domain id="2305001" description="Guaraciaba do Norte" />
+	<domain id="2305100" description="Guaramiranga" />
+	<domain id="2305209" description="Hidrolândia" />
+	<domain id="2305233" description="Horizonte" />
+	<domain id="2305266" description="Ibaretama" />
+	<domain id="2305308" description="Ibiapina" />
+	<domain id="2305332" description="Ibicuitinga" />
+	<domain id="2305357" description="Icapuí" />
+	<domain id="2305407" description="Icó" />
+	<domain id="2305506" description="Iguatu" />
+	<domain id="2305605" description="Independência" />
+	<domain id="2305654" description="Ipaporanga" />
+	<domain id="2305704" description="Ipaumirim" />
+	<domain id="2305803" description="Ipu" />
+	<domain id="2305902" description="Ipueiras" />
+	<domain id="2306009" description="Iracema" />
+	<domain id="2306108" description="Irauçuba" />
+	<domain id="2306207" description="Itaiçaba" />
+	<domain id="2306256" description="Itaitinga" />
+	<domain id="2306306" description="Itapagé" />
+	<domain id="2306405" description="Itapipoca" />
+	<domain id="2306504" description="Itapiúna" />
+	<domain id="2306553" description="Itarema" />
+	<domain id="2306603" description="Itatira" />
+	<domain id="2306702" description="Jaguaretama" />
+	<domain id="2306801" description="Jaguaribara" />
+	<domain id="2306900" description="Jaguaribe" />
+	<domain id="2307007" description="Jaguaruana" />
+	<domain id="2307106" description="Jardim" />
+	<domain id="2307205" description="Jati" />
+	<domain id="2307254" description="Jijoca de Jericoacoara" />
+	<domain id="2307304" description="Juazeiro do Norte" />
+	<domain id="2307403" description="Jucás" />
+	<domain id="2307502" description="Lavras da Mangabeira" />
+	<domain id="2307601" description="Limoeiro do Norte" />
+	<domain id="2307635" description="Madalena" />
+	<domain id="2307650" description="Maracanaú" />
+	<domain id="2307700" description="Maranguape" />
+	<domain id="2307809" description="Marco" />
+	<domain id="2307908" description="Martinópole" />
+	<domain id="2308005" description="Massapê" />
+	<domain id="2308104" description="Mauriti" />
+	<domain id="2308203" description="Meruoca" />
+	<domain id="2308302" description="Milagres" />
+	<domain id="2308351" description="Milhã" />
+	<domain id="2308377" description="Miraíma" />
+	<domain id="2308401" description="Missão Velha" />
+	<domain id="2308500" description="Mombaça" />
+	<domain id="2308609" description="Monsenhor Tabosa" />
+	<domain id="2308708" description="Morada Nova" />
+	<domain id="2308807" description="Moraújo" />
+	<domain id="2308906" description="Morrinhos" />
+	<domain id="2309003" description="Mucambo" />
+	<domain id="2309102" description="Mulungu" />
+	<domain id="2309201" description="Nova Olinda" />
+	<domain id="2309300" description="Nova Russas" />
+	<domain id="2309409" description="Novo Oriente" />
+	<domain id="2309458" description="Ocara" />
+	<domain id="2309508" description="Orós" />
+	<domain id="2309607" description="Pacajus" />
+	<domain id="2309706" description="Pacatuba" />
+	<domain id="2309805" description="Pacoti" />
+	<domain id="2309904" description="Pacujá" />
+	<domain id="2310001" description="Palhano" />
+	<domain id="2310100" description="Palmácia" />
+	<domain id="2310209" description="Paracuru" />
+	<domain id="2310258" description="Paraipaba" />
+	<domain id="2310308" description="Parambu" />
+	<domain id="2310407" description="Paramoti" />
+	<domain id="2310506" description="Pedra Branca" />
+	<domain id="2310605" description="Penaforte" />
+	<domain id="2310704" description="Pentecoste" />
+	<domain id="2310803" description="Pereiro" />
+	<domain id="2310852" description="Pindoretama" />
+	<domain id="2310902" description="Piquet Carneiro" />
+	<domain id="2310951" description="Pires Ferreira" />
+	<domain id="2311009" description="Poranga" />
+	<domain id="2311108" description="Porteiras" />
+	<domain id="2311207" description="Potengi" />
+	<domain id="2311231" description="Potiretama" />
+	<domain id="2311264" description="Quiterianópolis" />
+	<domain id="2311306" description="Quixadá" />
+	<domain id="2311355" description="Quixelô" />
+	<domain id="2311405" description="Quixeramobim" />
+	<domain id="2311504" description="Quixeré" />
+	<domain id="2311603" description="Redenção" />
+	<domain id="2311702" description="Reriutaba" />
+	<domain id="2311801" description="Russas" />
+	<domain id="2311900" description="Saboeiro" />
+	<domain id="2311959" description="Salitre" />
+	<domain id="2312205" description="Santa Quitéria" />
+	<domain id="2312007" description="Santana do Acaraú" />
+	<domain id="2312106" description="Santana do Cariri" />
+	<domain id="2312304" description="São Benedito" />
+	<domain id="2312403" description="São Gonçalo do Amarante" />
+	<domain id="2312502" description="São João do Jaguaribe" />
+	<domain id="2312601" description="São Luís do Curu" />
+	<domain id="2312700" description="Senador Pompeu" />
+	<domain id="2312809" description="Senador Sá" />
+	<domain id="2312908" description="Sobral" />
+	<domain id="2313005" description="Solonópole" />
+	<domain id="2313104" description="Tabuleiro do Norte" />
+	<domain id="2313203" description="Tamboril" />
+	<domain id="2313252" description="Tarrafas" />
+	<domain id="2313302" description="Tauá" />
+	<domain id="2313351" description="Tejuçuoca" />
+	<domain id="2313401" description="Tianguá" />
+	<domain id="2313500" description="Trairi" />
+	<domain id="2313559" description="Tururu" />
+	<domain id="2313609" description="Ubajara" />
+	<domain id="2313708" description="Umari" />
+	<domain id="2313757" description="Umirim" />
+	<domain id="2313807" description="Uruburetama" />
+	<domain id="2313906" description="Uruoca" />
+	<domain id="2313955" description="Varjota" />
+	<domain id="2314003" description="Várzea Alegre" />
+	<domain id="2314102" description="Viçosa do Ceará" />
+</tns:domain>

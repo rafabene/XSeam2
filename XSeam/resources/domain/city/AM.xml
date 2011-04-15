@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="1300029" description="Alvaraes" />
+	<domain id="1300060" description="Amaturá" />
+	<domain id="1300086" description="Anamã" />
+	<domain id="1300102" description="Anori" />
+	<domain id="1300144" description="Apuí" />
+	<domain id="1300201" description="Atalaia do Norte" />
+	<domain id="1300300" description="Autazes" />
+	<domain id="1300409" description="Barcelos" />
+	<domain id="1300508" description="Barreirinha" />
+	<domain id="1300607" description="Benjamin Constant" />
+	<domain id="1300631" description="Beruri" />
+	<domain id="1300680" description="Boa Vista do Ramos" />
+	<domain id="1300706" description="Boca do Acre" />
+	<domain id="1300805" description="Borba" />
+	<domain id="1300839" description="Caapiranga" />
+	<domain id="1300904" description="Canutama" />
+	<domain id="1301001" description="Carauari" />
+	<domain id="1301100" description="Careiro" />
+	<domain id="1301159" description="Careiro da Várzea" />
+	<domain id="1301209" description="Coari" />
+	<domain id="1301308" description="Codajás" />
+	<domain id="1301407" description="Eirunepé" />
+	<domain id="1301506" description="Envira" />
+	<domain id="1301605" description="Fonte Boa" />
+	<domain id="1301654" description="Guajará" />
+	<domain id="1301704" description="Humaitá" />
+	<domain id="1301803" description="Ipixuna" />
+	<domain id="1301852" description="Iranduba" />
+	<domain id="1301902" description="Itacoatiara" />
+	<domain id="1301951" description="Itamarati" />
+	<domain id="1302009" description="Itapiranga" />
+	<domain id="1302108" description="Japurá" />
+	<domain id="1302207" description="Juruá" />
+	<domain id="1302306" description="Jutaí" />
+	<domain id="1302405" description="Lábrea" />
+	<domain id="1302504" description="Manacapuru" />
+	<domain id="1302553" description="Manaquiri" />
+	<domain id="1302603" description="Manaus" />
+	<domain id="1302702" description="Manicoré" />
+	<domain id="1302801" description="Maraã" />
+	<domain id="1302900" description="Maués" />
+	<domain id="1303007" description="Nhamundá" />
+	<domain id="1303106" description="Nova Olinda do Norte" />
+	<domain id="1303205" description="Novo Airão" />
+	<domain id="1303304" description="Novo Aripuanã" />
+	<domain id="1303403" description="Parintins" />
+	<domain id="1303502" description="Pauini" />
+	<domain id="1303536" description="Presidente Figueiredo" />
+	<domain id="1303569" description="Rio Preto da Eva" />
+	<domain id="1303601" description="Santa Isabel do Rio Negro" />
+	<domain id="1303700" description="Santo Antônio do Içá" />
+	<domain id="1303809" description="São Gabriel da Cachoeira" />
+	<domain id="1303908" description="São Paulo de Olivença" />
+	<domain id="1303957" description="São Sebastião do Uatumã" />
+	<domain id="1304005" description="Silves" />
+	<domain id="1304062" description="Tabatinga" />
+	<domain id="1304104" description="Tapauá" />
+	<domain id="1304203" description="Tefé" />
+	<domain id="1304237" description="Tonantins" />
+	<domain id="1304260" description="Uarini" />
+	<domain id="1304302" description="Urucará" />
+	<domain id="1304401" description="Urucurituba" />
+</tns:domain>

@@ -1,0 +1,34 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:s="http://jboss.com/products/seam/taglib" xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html" xmlns:rich="http://richfaces.org/rich" xmlns:x="http://www.xseam.org" xmlns:a4j="http://richfaces.org/a4j" template="layout/template.xhtml">
+
+	<ui:define name="body">
+		<ui:debug hotkey="d" />
+		<h:form>
+			<h:messages globalOnly="true" />
+			<x:inputText label="Nome" value="#{person.name}" name="nome" />
+			<br />
+			<x:inputTextCPF value="#{person.cpf}" name="cpf" />
+			<br />
+			<x:inputTextDate label="Birthday:" value="#{person.birth}" ajaxValidation="true" name="birth" />
+			<br />
+			<x:inputNumber label="Age:" value="#{person.age}" name="idade" accesskey="m" maxlength="5" title="Algum hint" jsfConverter="javax.faces.Integer" />
+
+
+			<x:divButtons>
+				<x:commandSearch />
+				<x:commandNewRegister newRecordViewId="/personHome.xhtml" />
+			</x:divButtons>
+
+			<x:dataTable queryComponent="#{personQuery}" var="per">
+				<x:columnLink header="Nome" value="#{per.name}" viewId="/personHome.xhtml" />
+				<x:column header="CPF" value="#{per.cpf}" />
+				<x:columnLink header="Date" value="#{per.birth}" datePattern="dd/MM/yyyy" viewId="/personHome.xhtml" />
+				<x:column header="Idade" value="#{per.age}" />
+				<x:columnEditRemove header="Ações" homeComponent="#{personHome}" editEntity="true" viewId="/personHome.xhtml" />
+			</x:dataTable>
+
+		</h:form>
+	</ui:define>
+</ui:composition>

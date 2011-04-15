@@ -1,0 +1,28 @@
+<ui:component xmlns="http://www.w3.org/1999/xhtml"
+                 xmlns:ui="http://java.sun.com/jsf/facelets"
+                 xmlns:h="http://java.sun.com/jsf/html"
+                 xmlns:f="http://java.sun.com/jsf/core"
+                 xmlns:s="http://jboss.com/products/seam/taglib"
+                 rendered="#{x:getDefaultValue(rendered,true)}" >
+
+    <div class="prop">
+        <span class="name">
+        	<s:label  accesskey="#{accesskey}">
+            	#{label}
+            	<s:span styleClass="required" rendered="#{required}">*</s:span>
+            </s:label>
+        </span>
+        
+        <span class="value">
+        	<s:validateAll>
+            	<ui:insert/>
+            </s:validateAll>
+        </span>
+        
+       <span class="error">
+			<s:graphicImage value="/image/erro.png" rendered="#{invalid}" styleClass="errors"/>
+	  		<s:message styleClass="errors" />
+	  	</span>
+    </div>
+
+</ui:component> 

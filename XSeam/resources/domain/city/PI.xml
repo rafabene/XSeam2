@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="2200053" description="Acaua" />
+	<domain id="2200103" description="Agricolândia" />
+	<domain id="2200202" description="Água Branca" />
+	<domain id="2200251" description="Alagoinha do Piauí" />
+	<domain id="2200277" description="Alegrete do Piauí" />
+	<domain id="2200301" description="Alto Longá" />
+	<domain id="2200400" description="Altos" />
+	<domain id="2200459" description="Alvorada do Gurguéia" />
+	<domain id="2200509" description="Amarante" />
+	<domain id="2200608" description="Angical do Piauí" />
+	<domain id="2200707" description="Anísio de Abreu" />
+	<domain id="2200806" description="Antônio Almeida" />
+	<domain id="2200905" description="Aroazes" />
+	<domain id="2200954" description="Aroeiras do Itaim" />
+	<domain id="2201002" description="Arraial" />
+	<domain id="2201051" description="Assunção do Piauí" />
+	<domain id="2201101" description="Avelino Lopes" />
+	<domain id="2201150" description="Baixa Grande do Ribeiro" />
+	<domain id="2201176" description="Barra D'Alcântara" />
+	<domain id="2201200" description="Barras" />
+	<domain id="2201309" description="Barreiras do Piauí" />
+	<domain id="2201408" description="Barro Duro" />
+	<domain id="2201507" description="Batalha" />
+	<domain id="2201556" description="Bela Vista do Piauí" />
+	<domain id="2201572" description="Belém do Piauí" />
+	<domain id="2201606" description="Beneditinos" />
+	<domain id="2201705" description="Bertolínia" />
+	<domain id="2201739" description="Betânia do Piauí" />
+	<domain id="2201770" description="Boa Hora" />
+	<domain id="2201804" description="Bocaina" />
+	<domain id="2201903" description="Bom Jesus" />
+	<domain id="2201919" description="Bom Princípio do Piauí" />
+	<domain id="2201929" description="Bonfim do Piauí" />
+	<domain id="2201945" description="Boqueirão do Piauí" />
+	<domain id="2201960" description="Brasileira" />
+	<domain id="2201988" description="Brejo do Piauí" />
+	<domain id="2202000" description="Buriti dos Lopes" />
+	<domain id="2202026" description="Buriti dos Montes" />
+	<domain id="2202059" description="Cabeceiras do Piauí" />
+	<domain id="2202075" description="Cajazeiras do Piauí" />
+	<domain id="2202083" description="Cajueiro da Praia" />
+	<domain id="2202091" description="Caldeirão Grande do Piauí" />
+	<domain id="2202109" description="Campinas do Piauí" />
+	<domain id="2202117" description="Campo Alegre do Fidalgo" />
+	<domain id="2202133" description="Campo Grande do Piauí" />
+	<domain id="2202174" description="Campo Largo do Piauí" />
+	<domain id="2202208" description="Campo Maior" />
+	<domain id="2202251" description="Canavieira" />
+	<domain id="2202307" description="Canto do Buriti" />
+	<domain id="2202406" description="Capitão de Campos" />
+	<domain id="2202455" description="Capitão Gervásio Oliveira" />
+	<domain id="2202505" description="Caracol" />
+	<domain id="2202539" description="Caraúbas do Piauí" />
+	<domain id="2202554" description="Caridade do Piauí" />
+	<domain id="2202604" description="Castelo do Piauí" />
+	<domain id="2202653" description="Caxingó" />
+	<domain id="2202703" description="Cocal" />
+	<domain id="2202711" description="Cocal de Telha" />
+	<domain id="2202729" description="Cocal dos Alves" />
+	<domain id="2202737" description="Coivaras" />
+	<domain id="2202752" description="Colônia do Gurguéia" />
+	<domain id="2202778" description="Colônia do Piauí" />
+	<domain id="2202802" description="Conceição do Canindé" />
+	<domain id="2202851" description="Coronel José Dias" />
+	<domain id="2202901" description="Corrente" />
+	<domain id="2203008" description="Cristalândia do Piauí" />
+	<domain id="2203107" description="Cristino Castro" />
+	<domain id="2203206" description="Curimatá" />
+	<domain id="2203230" description="Currais" />
+	<domain id="2203271" description="Curral Novo do Piauí" />
+	<domain id="2203255" description="Curralinhos" />
+	<domain id="2203305" description="Demerval Lobão" />
+	<domain id="2203354" description="Dirceu Arcoverde" />
+	<domain id="2203404" description="Dom Expedito Lopes" />
+	<domain id="2203453" description="Dom Inocêncio" />
+	<domain id="2203420" description="Domingos Mourão" />
+	<domain id="2203503" description="Elesbão Veloso" />
+	<domain id="2203602" description="Eliseu Martins" />
+	<domain id="2203701" description="Esperantina" />
+	<domain id="2203750" description="Fartura do Piauí" />
+	<domain id="2203800" description="Flores do Piauí" />
+	<domain id="2203859" description="Floresta do Piauí" />
+	<domain id="2203909" description="Floriano" />
+	<domain id="2204006" description="Francinópolis" />
+	<domain id="2204105" description="Francisco Ayres" />
+	<domain id="2204154" description="Francisco Macedo" />
+	<domain id="2204204" description="Francisco Santos" />
+	<domain id="2204303" description="Fronteiras" />
+	<domain id="2204352" description="Geminiano" />
+	<domain id="2204402" description="Gilbués" />
+	<domain id="2204501" description="Guadalupe" />
+	<domain id="2204550" description="Guaribas" />
+	<domain id="2204600" description="Hugo Napoleão" />
+	<domain id="2204659" description="Ilha Grande" />
+	<domain id="2204709" description="Inhuma" />
+	<domain id="2204808" description="Ipiranga do Piauí" />
+	<domain id="2204907" description="Isaías Coelho" />
+	<domain id="2205003" description="Itainópolis" />
+	<domain id="2205102" description="Itaueira" />
+	<domain id="2205151" description="Jacobina do Piauí" />
+	<domain id="2205201" description="Jaicós" />
+	<domain id="2205250" description="Jardim do Mulato" />
+	<domain id="2205276" description="Jatobá do Piauí" />
+	<domain id="2205300" description="Jerumenha" />
+	<domain id="2205359" description="João Costa" />
+	<domain id="2205409" description="Joaquim Pires" />
+	<domain id="2205458" description="Joca Marques" />
+	<domain id="2205508" description="José de Freitas" />
+	<domain id="2205516" description="Juazeiro do Piauí" />
+	<domain id="2205524" description="Júlio Borges" />
+	<domain id="2205532" description="Jurema" />
+	<domain id="2205557" description="Lagoa Alegre" />
+	<domain id="2205573" description="Lagoa de São Francisco" />
+	<domain id="2205565" description="Lagoa do Barro do Piauí" />
+	<domain id="2205581" description="Lagoa do Piauí" />
+	<domain id="2205599" description="Lagoa do Sítio" />
+	<domain id="2205540" description="Lagoinha do Piauí" />
+	<domain id="2205607" description="Landri Sales" />
+	<domain id="2205706" description="Luís Correia" />
+	<domain id="2205805" description="Luzilândia" />
+	<domain id="2205854" description="Madeiro" />
+	<domain id="2205904" description="Manoel Emídio" />
+	<domain id="2205953" description="Marcolândia" />
+	<domain id="2206001" description="Marcos Parente" />
+	<domain id="2206050" description="Massapê do Piauí" />
+	<domain id="2206100" description="Matias Olímpio" />
+	<domain id="2206209" description="Miguel Alves" />
+	<domain id="2206308" description="Miguel Leão" />
+	<domain id="2206357" description="Milton Brandão" />
+	<domain id="2206407" description="Monsenhor Gil" />
+	<domain id="2206506" description="Monsenhor Hipólito" />
+	<domain id="2206605" description="Monte Alegre do Piauí" />
+	<domain id="2206654" description="Morro Cabeça no Tempo" />
+	<domain id="2206670" description="Morro do Chapéu do Piauí" />
+	<domain id="2206696" description="Murici dos Portelas" />
+	<domain id="2206704" description="Nazaré do Piauí" />
+	<domain id="2206753" description="Nossa Senhora de Nazaré" />
+	<domain id="2206803" description="Nossa Senhora dos Remédios" />
+	<domain id="2207959" description="Nova Santa Rita" />
+	<domain id="2206902" description="Novo Oriente do Piauí" />
+	<domain id="2206951" description="Novo Santo Antônio" />
+	<domain id="2207009" description="Oeiras" />
+	<domain id="2207108" description="Olho D'Água do Piauí" />
+	<domain id="2207207" description="Padre Marcos" />
+	<domain id="2207306" description="Paes Landim" />
+	<domain id="2207355" description="Pajeú do Piauí" />
+	<domain id="2207405" description="Palmeira do Piauí" />
+	<domain id="2207504" description="Palmeirais" />
+	<domain id="2207553" description="Paquetá" />
+	<domain id="2207603" description="Parnaguá" />
+	<domain id="2207702" description="Parnaíba" />
+	<domain id="2207751" description="Passagem Franca do Piauí" />
+	<domain id="2207777" description="Patos do Piauí" />
+	<domain id="2207793" description="Pau D'Arco do Piauí" />
+	<domain id="2207801" description="Paulistana" />
+	<domain id="2207850" description="Pavussu" />
+	<domain id="2207900" description="Pedro II" />
+	<domain id="2207934" description="Pedro Laurentino" />
+	<domain id="2208007" description="Picos" />
+	<domain id="2208106" description="Pimenteiras" />
+	<domain id="2208205" description="Pio IX" />
+	<domain id="2208304" description="Piracuruca" />
+	<domain id="2208403" description="Piripiri" />
+	<domain id="2208502" description="Porto" />
+	<domain id="2208551" description="Porto Alegre do Piauí" />
+	<domain id="2208601" description="Prata do Piauí" />
+	<domain id="2208650" description="Queimada Nova" />
+	<domain id="2208700" description="Redenção do Gurguéia" />
+	<domain id="2208809" description="Regeneração" />
+	<domain id="2208858" description="Riacho Frio" />
+	<domain id="2208874" description="Ribeira do Piauí" />
+	<domain id="2208908" description="Ribeiro Gonçalves" />
+	<domain id="2209005" description="Rio Grande do Piauí" />
+	<domain id="2209104" description="Santa Cruz do Piauí" />
+	<domain id="2209153" description="Santa Cruz dos Milagres" />
+	<domain id="2209203" description="Santa Filomena" />
+	<domain id="2209302" description="Santa Luz" />
+	<domain id="2209377" description="Santa Rosa do Piauí" />
+	<domain id="2209351" description="Santana do Piauí" />
+	<domain id="2209401" description="Santo Antônio de Lisboa" />
+	<domain id="2209450" description="Santo Antônio dos Milagres" />
+	<domain id="2209500" description="Santo Inácio do Piauí" />
+	<domain id="2209559" description="São Braz do Piauí" />
+	<domain id="2209609" description="São Félix do Piauí" />
+	<domain id="2209658" description="São Francisco de Assis do Piauí" />
+	<domain id="2209708" description="São Francisco do Piauí" />
+	<domain id="2209757" description="São Gonçalo do Gurguéia" />
+	<domain id="2209807" description="São Gonçalo do Piauí" />
+	<domain id="2209856" description="São João da Canabrava" />
+	<domain id="2209872" description="São João da Fronteira" />
+	<domain id="2209906" description="São João da Serra" />
+	<domain id="2209955" description="São João da Varjota" />
+	<domain id="2209971" description="São João do Arraial" />
+	<domain id="2210003" description="São João do Piauí" />
+	<domain id="2210052" description="São José do Divino" />
+	<domain id="2210102" description="São José do Peixe" />
+	<domain id="2210201" description="São José do Piauí" />
+	<domain id="2210300" description="São Julião" />
+	<domain id="2210359" description="São Lourenço do Piauí" />
+	<domain id="2210375" description="São Luis do Piauí" />
+	<domain id="2210383" description="São Miguel da Baixa Grande" />
+	<domain id="2210391" description="São Miguel do Fidalgo" />
+	<domain id="2210409" description="São Miguel do Tapuio" />
+	<domain id="2210508" description="São Pedro do Piauí" />
+	<domain id="2210607" description="São Raimundo Nonato" />
+	<domain id="2210623" description="Sebastião Barros" />
+	<domain id="2210631" description="Sebastião Leal" />
+	<domain id="2210656" description="Sigefredo Pacheco" />
+	<domain id="2210706" description="Simões" />
+	<domain id="2210805" description="Simplício Mendes" />
+	<domain id="2210904" description="Socorro do Piauí" />
+	<domain id="2210938" description="Sussuapara" />
+	<domain id="2210953" description="Tamboril do Piauí" />
+	<domain id="2210979" description="Tanque do Piauí" />
+	<domain id="2211001" description="Teresina" />
+	<domain id="2211100" description="União" />
+	<domain id="2211209" description="Uruçuí" />
+	<domain id="2211308" description="Valença do Piauí" />
+	<domain id="2211357" description="Várzea Branca" />
+	<domain id="2211407" description="Várzea Grande" />
+	<domain id="2211506" description="Vera Mendes" />
+	<domain id="2211605" description="Vila Nova do Piauí" />
+	<domain id="2211704" description="Wall Ferraz" />
+</tns:domain>

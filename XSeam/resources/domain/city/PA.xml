@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="1500107" description="Abaetetuba" />
+	<domain id="1500131" description="Abel Figueiredo" />
+	<domain id="1500206" description="Acará" />
+	<domain id="1500305" description="Afuá" />
+	<domain id="1500347" description="Água Azul do Norte" />
+	<domain id="1500404" description="Alenquer" />
+	<domain id="1500503" description="Almeirim" />
+	<domain id="1500602" description="Altamira" />
+	<domain id="1500701" description="Anajás" />
+	<domain id="1500800" description="Ananindeua" />
+	<domain id="1500859" description="Anapu" />
+	<domain id="1500909" description="Augusto Corrêa" />
+	<domain id="1500958" description="Aurora do Pará" />
+	<domain id="1501006" description="Aveiro" />
+	<domain id="1501105" description="Bagre" />
+	<domain id="1501204" description="Baião" />
+	<domain id="1501253" description="Bannach" />
+	<domain id="1501303" description="Barcarena" />
+	<domain id="1501402" description="Belém" />
+	<domain id="1501451" description="Belterra" />
+	<domain id="1501501" description="Benevides" />
+	<domain id="1501576" description="Bom Jesus do Tocantins" />
+	<domain id="1501600" description="Bonito" />
+	<domain id="1501709" description="Bragança" />
+	<domain id="1501725" description="Brasil Novo" />
+	<domain id="1501758" description="Brejo Grande do Araguaia" />
+	<domain id="1501782" description="Breu Branco" />
+	<domain id="1501808" description="Breves" />
+	<domain id="1501907" description="Bujaru" />
+	<domain id="1502004" description="Cachoeira do Arari" />
+	<domain id="1501956" description="Cachoeira do Piriá" />
+	<domain id="1502103" description="Cametá" />
+	<domain id="1502152" description="Canaã dos Carajás" />
+	<domain id="1502202" description="Capanema" />
+	<domain id="1502301" description="Capitão Poço" />
+	<domain id="1502400" description="Castanhal" />
+	<domain id="1502509" description="Chaves" />
+	<domain id="1502608" description="Colares" />
+	<domain id="1502707" description="Conceição do Araguaia" />
+	<domain id="1502756" description="Concórdia do Pará" />
+	<domain id="1502764" description="Cumaru do Norte" />
+	<domain id="1502772" description="Curionópolis" />
+	<domain id="1502806" description="Curralinho" />
+	<domain id="1502855" description="Curuá" />
+	<domain id="1502905" description="Curuçá" />
+	<domain id="1502939" description="Dom Eliseu" />
+	<domain id="1502954" description="Eldorado dos Carajás" />
+	<domain id="1503002" description="Faro" />
+	<domain id="1503044" description="Floresta do Araguaia" />
+	<domain id="1503077" description="Garrafão do Norte" />
+	<domain id="1503093" description="Goianésia do Pará" />
+	<domain id="1503101" description="Gurupá" />
+	<domain id="1503200" description="Igarapé-Açu" />
+	<domain id="1503309" description="Igarapé-Miri" />
+	<domain id="1503408" description="Inhangapi" />
+	<domain id="1503457" description="Ipixuna do Pará" />
+	<domain id="1503507" description="Irituia" />
+	<domain id="1503606" description="Itaituba" />
+	<domain id="1503705" description="Itupiranga" />
+	<domain id="1503754" description="Jacareacanga" />
+	<domain id="1503804" description="Jacundá" />
+	<domain id="1503903" description="Juruti" />
+	<domain id="1504000" description="Limoeiro do Ajuru" />
+	<domain id="1504059" description="Mãe do Rio" />
+	<domain id="1504109" description="Magalhães Barata" />
+	<domain id="1504208" description="Marabá" />
+	<domain id="1504307" description="Maracanã" />
+	<domain id="1504406" description="Marapanim" />
+	<domain id="1504422" description="Marituba" />
+	<domain id="1504455" description="Medicilândia" />
+	<domain id="1504505" description="Melgaço" />
+	<domain id="1504604" description="Mocajuba" />
+	<domain id="1504703" description="Moju" />
+	<domain id="1504802" description="Monte Alegre" />
+	<domain id="1504901" description="Muaná" />
+	<domain id="1504950" description="Nova Esperança do Piriá" />
+	<domain id="1504976" description="Nova Ipixuna" />
+	<domain id="1505007" description="Nova Timboteua" />
+	<domain id="1505031" description="Novo Progresso" />
+	<domain id="1505064" description="Novo Repartimento" />
+	<domain id="1505106" description="Óbidos" />
+	<domain id="1505205" description="Oeiras do Pará" />
+	<domain id="1505304" description="Oriximiná" />
+	<domain id="1505403" description="Ourém" />
+	<domain id="1505437" description="Ourilândia do Norte" />
+	<domain id="1505486" description="Pacajá" />
+	<domain id="1505494" description="Palestina do Pará" />
+	<domain id="1505502" description="Paragominas" />
+	<domain id="1505536" description="Parauapebas" />
+	<domain id="1505551" description="Pau D'Arco" />
+	<domain id="1505601" description="Peixe-Boi" />
+	<domain id="1505635" description="Piçarra" />
+	<domain id="1505650" description="Placas" />
+	<domain id="1505700" description="Ponta de Pedras" />
+	<domain id="1505809" description="Portel" />
+	<domain id="1505908" description="Porto de Moz" />
+	<domain id="1506005" description="Prainha" />
+	<domain id="1506104" description="Primavera" />
+	<domain id="1506112" description="Quatipuru" />
+	<domain id="1506138" description="Redenção" />
+	<domain id="1506161" description="Rio Maria" />
+	<domain id="1506187" description="Rondon do Pará" />
+	<domain id="1506195" description="Rurópolis" />
+	<domain id="1506203" description="Salinópolis" />
+	<domain id="1506302" description="Salvaterra" />
+	<domain id="1506351" description="Santa Bárbara do Pará" />
+	<domain id="1506401" description="Santa Cruz do Arari" />
+	<domain id="1506500" description="Santa Isabel do Pará" />
+	<domain id="1506559" description="Santa Luzia do Pará" />
+	<domain id="1506583" description="Santa Maria das Barreiras" />
+	<domain id="1506609" description="Santa Maria do Pará" />
+	<domain id="1506708" description="Santana do Araguaia" />
+	<domain id="1506807" description="Santarém" />
+	<domain id="1506906" description="Santarém Novo" />
+	<domain id="1507003" description="Santo Antônio do Tauá" />
+	<domain id="1507102" description="São Caetano de Odivelas" />
+	<domain id="1507151" description="São Domingos do Araguaia" />
+	<domain id="1507201" description="São Domingos do Capim" />
+	<domain id="1507300" description="São Félix do Xingu" />
+	<domain id="1507409" description="São Francisco do Pará" />
+	<domain id="1507458" description="São Geraldo do Araguaia" />
+	<domain id="1507466" description="São João da Ponta" />
+	<domain id="1507474" description="São João de Pirabas" />
+	<domain id="1507508" description="São João do Araguaia" />
+	<domain id="1507607" description="São Miguel do Guamá" />
+	<domain id="1507706" description="São Sebastião da Boa Vista" />
+	<domain id="1507755" description="Sapucaia" />
+	<domain id="1507805" description="Senador José Porfírio" />
+	<domain id="1507904" description="Soure" />
+	<domain id="1507953" description="Tailândia" />
+	<domain id="1507961" description="Terra Alta" />
+	<domain id="1507979" description="Terra Santa" />
+	<domain id="1508001" description="Tomé-Açu" />
+	<domain id="1508035" description="Tracuateua" />
+	<domain id="1508050" description="Trairão" />
+	<domain id="1508084" description="Tucumã" />
+	<domain id="1508100" description="Tucuruí" />
+	<domain id="1508126" description="Ulianópolis" />
+	<domain id="1508159" description="Uruará" />
+	<domain id="1508209" description="Vigia" />
+	<domain id="1508308" description="Viseu" />
+	<domain id="1508357" description="Vitória do Xingu" />
+	<domain id="1508407" description="Xinguara" />
+</tns:domain>

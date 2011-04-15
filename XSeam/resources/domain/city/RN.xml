@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="2400109" description="Acari" />
+	<domain id="2400208" description="Açu" />
+	<domain id="2400307" description="Afonso Bezerra" />
+	<domain id="2400406" description="Água Nova" />
+	<domain id="2400505" description="Alexandria" />
+	<domain id="2400604" description="Almino Afonso" />
+	<domain id="2400703" description="Alto do Rodrigues" />
+	<domain id="2400802" description="Angicos" />
+	<domain id="2400901" description="Antônio Martins" />
+	<domain id="2401008" description="Apodi" />
+	<domain id="2401107" description="Areia Branca" />
+	<domain id="2401206" description="Arês" />
+	<domain id="2401305" description="Augusto Severo" />
+	<domain id="2401404" description="Baía Formosa" />
+	<domain id="2401453" description="Baraúna" />
+	<domain id="2401503" description="Barcelona" />
+	<domain id="2401602" description="Bento Fernandes" />
+	<domain id="2401651" description="Bodó" />
+	<domain id="2401701" description="Bom Jesus" />
+	<domain id="2401800" description="Brejinho" />
+	<domain id="2401859" description="Caiçara do Norte" />
+	<domain id="2401909" description="Caiçara do Rio do Vento" />
+	<domain id="2402006" description="Caicó" />
+	<domain id="2402105" description="Campo Redondo" />
+	<domain id="2402204" description="Canguaretama" />
+	<domain id="2402303" description="Caraúbas" />
+	<domain id="2402402" description="Carnaúba dos Dantas" />
+	<domain id="2402501" description="Carnaubais" />
+	<domain id="2402600" description="Ceará-Mirim" />
+	<domain id="2402709" description="Cerro Corá" />
+	<domain id="2402808" description="Coronel Ezequiel" />
+	<domain id="2402907" description="Coronel João Pessoa" />
+	<domain id="2403004" description="Cruzeta" />
+	<domain id="2403103" description="Currais Novos" />
+	<domain id="2403202" description="Doutor Severiano" />
+	<domain id="2403301" description="Encanto" />
+	<domain id="2403400" description="Equador" />
+	<domain id="2403509" description="Espírito Santo" />
+	<domain id="2403608" description="Extremoz" />
+	<domain id="2403707" description="Felipe Guerra" />
+	<domain id="2403756" description="Fernando Pedroza" />
+	<domain id="2403806" description="Florânia" />
+	<domain id="2403905" description="Francisco Dantas" />
+	<domain id="2404002" description="Frutuoso Gomes" />
+	<domain id="2404101" description="Galinhos" />
+	<domain id="2404200" description="Goianinha" />
+	<domain id="2404309" description="Governador Dix-Sept Rosado" />
+	<domain id="2404408" description="Grossos" />
+	<domain id="2404507" description="Guamaré" />
+	<domain id="2404606" description="Ielmo Marinho" />
+	<domain id="2404705" description="Ipanguaçu" />
+	<domain id="2404804" description="Ipueira" />
+	<domain id="2404853" description="Itajá" />
+	<domain id="2404903" description="Itaú" />
+	<domain id="2405009" description="Jaçanã" />
+	<domain id="2405108" description="Jandaíra" />
+	<domain id="2405207" description="Janduís" />
+	<domain id="2405306" description="Januário Cicco" />
+	<domain id="2405405" description="Japi" />
+	<domain id="2405504" description="Jardim de Angicos" />
+	<domain id="2405603" description="Jardim de Piranhas" />
+	<domain id="2405702" description="Jardim do Seridó" />
+	<domain id="2405801" description="João Câmara" />
+	<domain id="2405900" description="João Dias" />
+	<domain id="2406007" description="José da Penha" />
+	<domain id="2406106" description="Jucurutu" />
+	<domain id="2406155" description="Jundiá" />
+	<domain id="2406205" description="Lagoa d'Anta" />
+	<domain id="2406304" description="Lagoa de Pedras" />
+	<domain id="2406403" description="Lagoa de Velhos" />
+	<domain id="2406502" description="Lagoa Nova" />
+	<domain id="2406601" description="Lagoa Salgada" />
+	<domain id="2406700" description="Lajes" />
+	<domain id="2406809" description="Lajes Pintadas" />
+	<domain id="2406908" description="Lucrécia" />
+	<domain id="2407005" description="Luís Gomes" />
+	<domain id="2407104" description="Macaíba" />
+	<domain id="2407203" description="Macau" />
+	<domain id="2407252" description="Major Sales" />
+	<domain id="2407302" description="Marcelino Vieira" />
+	<domain id="2407401" description="Martins" />
+	<domain id="2407500" description="Maxaranguape" />
+	<domain id="2407609" description="Messias Targino" />
+	<domain id="2407708" description="Montanhas" />
+	<domain id="2407807" description="Monte Alegre" />
+	<domain id="2407906" description="Monte das Gameleiras" />
+	<domain id="2408003" description="Mossoró" />
+	<domain id="2408102" description="Natal" />
+	<domain id="2408201" description="Nísia Floresta" />
+	<domain id="2408300" description="Nova Cruz" />
+	<domain id="2408409" description="Olho-d'Água do Borges" />
+	<domain id="2408508" description="Ouro Branco" />
+	<domain id="2408607" description="Paraná" />
+	<domain id="2408706" description="Paraú" />
+	<domain id="2408805" description="Parazinho" />
+	<domain id="2408904" description="Parelhas" />
+	<domain id="2403251" description="Parnamirim" />
+	<domain id="2409100" description="Passa e Fica" />
+	<domain id="2409209" description="Passagem" />
+	<domain id="2409308" description="Patu" />
+	<domain id="2409407" description="Pau dos Ferros" />
+	<domain id="2409506" description="Pedra Grande" />
+	<domain id="2409605" description="Pedra Preta" />
+	<domain id="2409704" description="Pedro Avelino" />
+	<domain id="2409803" description="Pedro Velho" />
+	<domain id="2409902" description="Pendências" />
+	<domain id="2410009" description="Pilões" />
+	<domain id="2410108" description="Poço Branco" />
+	<domain id="2410207" description="Portalegre" />
+	<domain id="2410256" description="Porto do Mangue" />
+	<domain id="2410306" description="Presidente Juscelino" />
+	<domain id="2410405" description="Pureza" />
+	<domain id="2410504" description="Rafael Fernandes" />
+	<domain id="2410603" description="Rafael Godeiro" />
+	<domain id="2410702" description="Riacho da Cruz" />
+	<domain id="2410801" description="Riacho de Santana" />
+	<domain id="2410900" description="Riachuelo" />
+	<domain id="2408953" description="Rio do Fogo" />
+	<domain id="2411007" description="Rodolfo Fernandes" />
+	<domain id="2411106" description="Ruy Barbosa" />
+	<domain id="2411205" description="Santa Cruz" />
+	<domain id="2409332" description="Santa Maria" />
+	<domain id="2411403" description="Santana do Matos" />
+	<domain id="2411429" description="Santana do Seridó" />
+	<domain id="2411502" description="Santo Antônio" />
+	<domain id="2411601" description="São Bento do Norte" />
+	<domain id="2411700" description="São Bento do Trairí" />
+	<domain id="2411809" description="São Fernando" />
+	<domain id="2411908" description="São Francisco do Oeste" />
+	<domain id="2412005" description="São Gonçalo do Amarante" />
+	<domain id="2412104" description="São João do Sabugi" />
+	<domain id="2412203" description="São José de Mipibu" />
+	<domain id="2412302" description="São José do Campestre" />
+	<domain id="2412401" description="São José do Seridó" />
+	<domain id="2412500" description="São Miguel" />
+	<domain id="2412559" description="São Miguel do Gostoso" />
+	<domain id="2412609" description="São Paulo do Potengi" />
+	<domain id="2412708" description="São Pedro" />
+	<domain id="2412807" description="São Rafael" />
+	<domain id="2412906" description="São Tomé" />
+	<domain id="2413003" description="São Vicente" />
+	<domain id="2413102" description="Senador Elói de Souza" />
+	<domain id="2413201" description="Senador Georgino Avelino" />
+	<domain id="2413300" description="Serra de São Bento" />
+	<domain id="2413359" description="Serra do Mel" />
+	<domain id="2413409" description="Serra Negra do Norte" />
+	<domain id="2413508" description="Serrinha" />
+	<domain id="2413557" description="Serrinha dos Pintos" />
+	<domain id="2413607" description="Severiano Melo" />
+	<domain id="2413706" description="Sítio Novo" />
+	<domain id="2413805" description="Taboleiro Grande" />
+	<domain id="2413904" description="Taipu" />
+	<domain id="2414001" description="Tangará" />
+	<domain id="2414100" description="Tenente Ananias" />
+	<domain id="2414159" description="Tenente Laurentino Cruz" />
+	<domain id="2411056" description="Tibau" />
+	<domain id="2414209" description="Tibau do Sul" />
+	<domain id="2414308" description="Timbaúba dos Batistas" />
+	<domain id="2414407" description="Touros" />
+	<domain id="2414456" description="Triunfo Potiguar" />
+	<domain id="2414506" description="Umarizal" />
+	<domain id="2414605" description="Upanema" />
+	<domain id="2414704" description="Várzea" />
+	<domain id="2414753" description="Venha-Ver" />
+	<domain id="2414803" description="Vera Cruz" />
+	<domain id="2414902" description="Viçosa" />
+	<domain id="2415008" description="Vila Flor" />
+</tns:domain>

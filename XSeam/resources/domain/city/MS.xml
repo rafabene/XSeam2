@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="5000203" description="Água Clara" />
+	<domain id="5000252" description="Alcinópolis" />
+	<domain id="5000609" description="Amambaí" />
+	<domain id="5000708" description="Anastácio" />
+	<domain id="5000807" description="Anaurilândia" />
+	<domain id="5000856" description="Angélica" />
+	<domain id="5000906" description="Antônio João" />
+	<domain id="5001003" description="Aparecida do Taboado" />
+	<domain id="5001102" description="Aquidauana" />
+	<domain id="5001243" description="Aral Moreira" />
+	<domain id="5001508" description="Bandeirantes" />
+	<domain id="5001904" description="Bataguassu" />
+	<domain id="5002001" description="Batayporã" />
+	<domain id="5002100" description="Bela Vista" />
+	<domain id="5002159" description="Bodoquena" />
+	<domain id="5002209" description="Bonito" />
+	<domain id="5002308" description="Brasilândia" />
+	<domain id="5002407" description="Caarapó" />
+	<domain id="5002605" description="Camapuã" />
+	<domain id="5002704" description="Campo Grande" />
+	<domain id="5002803" description="Caracol" />
+	<domain id="5002902" description="Cassilândia" />
+	<domain id="5002951" description="Chapadão do Sul" />
+	<domain id="5003108" description="Corguinho" />
+	<domain id="5003157" description="Coronel Sapucaia" />
+	<domain id="5003207" description="Corumbá" />
+	<domain id="5003256" description="Costa Rica" />
+	<domain id="5003306" description="Coxim" />
+	<domain id="5003454" description="Deodápolis" />
+	<domain id="5003488" description="Dois Irmãos do Buriti" />
+	<domain id="5003504" description="Douradina" />
+	<domain id="5003702" description="Dourados" />
+	<domain id="5003751" description="Eldorado" />
+	<domain id="5003801" description="Fátima do Sul" />
+	<domain id="5003900" description="Figueirão" />
+	<domain id="5004007" description="Glória de Dourados" />
+	<domain id="5004106" description="Guia Lopes da Laguna" />
+	<domain id="5004304" description="Iguatemi" />
+	<domain id="5004403" description="Inocência" />
+	<domain id="5004502" description="Itaporã" />
+	<domain id="5004601" description="Itaquiraí" />
+	<domain id="5004700" description="Ivinhema" />
+	<domain id="5004809" description="Japorã" />
+	<domain id="5004908" description="Jaraguari" />
+	<domain id="5005004" description="Jardim" />
+	<domain id="5005103" description="Jateí" />
+	<domain id="5005152" description="Juti" />
+	<domain id="5005202" description="Ladário" />
+	<domain id="5005251" description="Laguna Carapã" />
+	<domain id="5005400" description="Maracaju" />
+	<domain id="5005608" description="Miranda" />
+	<domain id="5005681" description="Mundo Novo" />
+	<domain id="5005707" description="Naviraí" />
+	<domain id="5005806" description="Nioaque" />
+	<domain id="5006002" description="Nova Alvorada do Sul" />
+	<domain id="5006200" description="Nova Andradina" />
+	<domain id="5006259" description="Novo Horizonte do Sul" />
+	<domain id="5006309" description="Paranaíba" />
+	<domain id="5006358" description="Paranhos" />
+	<domain id="5006408" description="Pedro Gomes" />
+	<domain id="5006606" description="Ponta Porã" />
+	<domain id="5006903" description="Porto Murtinho" />
+	<domain id="5007109" description="Ribas do Rio Pardo" />
+	<domain id="5007208" description="Rio Brilhante" />
+	<domain id="5007307" description="Rio Negro" />
+	<domain id="5007406" description="Rio Verde de Mato Grosso" />
+	<domain id="5007505" description="Rochedo" />
+	<domain id="5007554" description="Santa Rita do Pardo" />
+	<domain id="5007695" description="São Gabriel do Oeste" />
+	<domain id="5007802" description="Selvíria" />
+	<domain id="5007703" description="Sete Quedas" />
+	<domain id="5007901" description="Sidrolândia" />
+	<domain id="5007935" description="Sonora" />
+	<domain id="5007950" description="Tacuru" />
+	<domain id="5007976" description="Taquarussu" />
+	<domain id="5008008" description="Terenos" />
+	<domain id="5008305" description="Três Lagoas" />
+	<domain id="5008404" description="Vicentina" />
+</tns:domain>

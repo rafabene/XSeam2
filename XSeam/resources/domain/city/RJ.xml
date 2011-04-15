@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="3300100" description="Angra do Reis" />
+	<domain id="3300159" description="Aperibé" />
+	<domain id="3300209" description="Araruama" />
+	<domain id="3300225" description="Areal" />
+	<domain id="3300233" description="Armação dos Búzios" />
+	<domain id="3300258" description="Arraial do Cabo" />
+	<domain id="3300308" description="Barra do Piraí" />
+	<domain id="3300407" description="Barra Mansa" />
+	<domain id="3300456" description="Belford Roxo" />
+	<domain id="3300506" description="Bom Jardim" />
+	<domain id="3300605" description="Bom Jesus do Itabapoana" />
+	<domain id="3300704" description="Cabo Frio" />
+	<domain id="3300803" description="Cachoeiras de Macacu" />
+	<domain id="3300902" description="Cambuci" />
+	<domain id="3301009" description="Campos dos Goytacazes" />
+	<domain id="3301108" description="Cantagalo" />
+	<domain id="3300936" description="Carapebus" />
+	<domain id="3301157" description="Cardoso Moreira" />
+	<domain id="3301207" description="Carmo" />
+	<domain id="3301306" description="Casimiro de Abreu" />
+	<domain id="3300951" description="Comendador Levy Gasparian" />
+	<domain id="3301405" description="Conceição de Macabu" />
+	<domain id="3301504" description="Cordeiro" />
+	<domain id="3301603" description="Duas Barras" />
+	<domain id="3301702" description="Duque de Caxias" />
+	<domain id="3301801" description="Engenheiro Paulo de Frontin" />
+	<domain id="3301850" description="Guapimirim" />
+	<domain id="3301876" description="Iguaba Grande" />
+	<domain id="3301900" description="Itaboraí" />
+	<domain id="3302007" description="Itaguaí" />
+	<domain id="3302056" description="Italva" />
+	<domain id="3302106" description="Itaocara" />
+	<domain id="3302205" description="Itaperuna" />
+	<domain id="3302254" description="Itatiaia" />
+	<domain id="3302270" description="Japeri" />
+	<domain id="3302304" description="Laje do Muriaé" />
+	<domain id="3302403" description="Macaé" />
+	<domain id="3302452" description="Macuco" />
+	<domain id="3302502" description="Magé" />
+	<domain id="3302601" description="Mangaratiba" />
+	<domain id="3302700" description="Maricá" />
+	<domain id="3302809" description="Mendes" />
+	<domain id="3302858" description="Mesquita" />
+	<domain id="3302908" description="Miguel Pereira" />
+	<domain id="3303005" description="Miracema" />
+	<domain id="3303104" description="Natividade" />
+	<domain id="3303203" description="Nilópolis" />
+	<domain id="3303302" description="Niterói" />
+	<domain id="3303401" description="Nova Friburgo" />
+	<domain id="3303500" description="Nova Iguaçu" />
+	<domain id="3303609" description="Paracambi" />
+	<domain id="3303708" description="Paraíba do Sul" />
+	<domain id="3303807" description="Parati" />
+	<domain id="3303856" description="Paty do Alferes" />
+	<domain id="3303906" description="Petrópolis" />
+	<domain id="3303955" description="Pinheiral" />
+	<domain id="3304003" description="Piraí" />
+	<domain id="3304102" description="Porciúncula" />
+	<domain id="3304110" description="Porto Real" />
+	<domain id="3304128" description="Quatis" />
+	<domain id="3304144" description="Queimados" />
+	<domain id="3304151" description="Quissamã" />
+	<domain id="3304201" description="Resende" />
+	<domain id="3304300" description="Rio Bonito" />
+	<domain id="3304409" description="Rio Claro" />
+	<domain id="3304508" description="Rio das Flores" />
+	<domain id="3304524" description="Rio das Ostras" />
+	<domain id="3304557" description="Rio de Janeiro" />
+	<domain id="3304607" description="Santa Maria Madalena" />
+	<domain id="3304706" description="Santo Antônio de Pádua" />
+	<domain id="3304805" description="São Fidélis" />
+	<domain id="3304755" description="São Francisco de Itabapoana" />
+	<domain id="3304904" description="São Gonçalo" />
+	<domain id="3305000" description="São João da Barra" />
+	<domain id="3305109" description="São João de Meriti" />
+	<domain id="3305133" description="São José de Ubá" />
+	<domain id="3305158" description="São José do Vale do Rio Preto" />
+	<domain id="3305208" description="São Pedro da Aldeia" />
+	<domain id="3305307" description="São Sebastião do Alto" />
+	<domain id="3305406" description="Sapucaia" />
+	<domain id="3305505" description="Saquarema" />
+	<domain id="3305554" description="Seropédica" />
+	<domain id="3305604" description="Silva Jardim" />
+	<domain id="3305703" description="Sumidouro" />
+	<domain id="3305752" description="Tanguá" />
+	<domain id="3305802" description="Teresópolis" />
+	<domain id="3305901" description="Trajano de Morais" />
+	<domain id="3306008" description="Três Rios" />
+	<domain id="3306107" description="Valença" />
+	<domain id="3306156" description="Varre-Sai" />
+	<domain id="3306206" description="Vassouras" />
+	<domain id="3306305" description="Volta Redonda" />
+</tns:domain>

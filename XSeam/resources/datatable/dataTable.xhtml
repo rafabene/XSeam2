@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich"
+    xmlns:x="http://www.xseam.org"> 
+<ui:component rendered="#{x:getDefaultValue(rendered, true)}">
+	
+	<div style="clear:both"/>
+	
+	<div class="results">
+	    <rich:spacer height="10" />
+		<a4j:outputPanel ajaxRendered="true">
+			<h:outputText value="#{messages['xseam.datatable.noResult']}" rendered="#{ (empty queryComponent['resultList']) and (empty value) and not disableNoResultMessage}"/>
+			<ui:fragment rendered="#{ (not empty queryComponent['resultList']) or (not empty value) }">
+			    <rich:spacer height="10" />
+				<rich:dataTable id="#{x:getDefaultValue(name, 'dataTable')}"
+					value="#{x:getDefaultValue(value,queryComponent['dataModel'])}" var="item"
+					rows="#{x:getDefaultValue(rows, 0)}"
+					onRowMouseOver="this.style.backgroundColor='#F1F1F1'"
+					onRowMouseOut="this.style.backgroundColor='#{a4jSkin.tableBackgroundColor}'">
+					<c:set var="#{var}" value="#{item}" />
+					<ui:insert />
+				</rich:dataTable>
+				<rich:datascroller for="#{x:getDefaultValue(name, 'dataTable')}" align="left" rendered="#{empty queryComponent.maxResults}"
+							renderIfSinglePage="false" maxPages="#{x:getDefaultValue(maxPages, 5)}" ajaxSingle="true"/>
+
+				<div align="center" style="float: right;">
+					<h:commandLink value="#{messages['xseam.label.excelExport']}" actionListener="#{xSeamExcelExporter.export}" rendered="#{exportToExcel}">
+						<f:param name="tableId" value="#{x:getDefaultValue(name, 'dataTable')}"/>
+					</h:commandLink>
+				</div>
+				<x:serverPagination />
+				
+				<rich:spacer height="10" />
+			</ui:fragment>
+		</a4j:outputPanel>
+	</div>
+</ui:component>
+</html>

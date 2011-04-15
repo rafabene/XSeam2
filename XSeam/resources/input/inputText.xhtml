@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:a4j="http://richfaces.org/a4j" xmlns:x="http://www.xseam.org">
+
+<ui:composition>
+
+	<s:decorate template="../layout/edit.xhtml" id="#{name}Decorate">
+
+		<ui:define name="label">
+			<h:outputText value="#{label}" id="#{name}Label"
+				accesskey="#{accesskey}" />:
+		</ui:define>
+
+		<h:inputText id="#{name}Input" value="#{value}" required="#{required}"
+			maxlength="#{x:getDefaultValue(maxlength,14)}" size="#{size}"
+			title="#{title}" readonly="#{readonly}" disabled="#{readonly}"
+			autocomplete="#{x:getDefaultValue(autocomplete,'off')}">
+			<ui:insert />
+
+			<!--  AJAX Validation -->
+			<c:if test="#{ajaxValidation}">
+				<a4j:support event="onblur" reRender="#{name}Decorate"
+					ajaxSingle="true" limitToList="true" bypassUpdates="true"
+					requestDelay="50" eventsQueue="validation" />
+			</c:if>
+
+
+			<!--  Validators and converters -->
+			<c:if test="#{not empty jsfValidator}">
+				<f:validator validatorId="#{jsfValidator}" />
+			</c:if>
+			<c:if test="#{not empty jsfConverter}">
+				<f:converter converterId="#{jsfConverter}" />
+			</c:if>
+			<c:if
+				test="#{x:getDefaultValue(emptyValueToNull,true) and (empty jsfConverter)}">
+				<f:converter converterId="org.xseam.emptyValueToNullConverter" />
+			</c:if>
+			<c:if test="#{not empty datePattern}">
+				<s:convertDateTime pattern="#{datePattern}" />
+			</c:if>
+
+		</h:inputText>
+	</s:decorate>
+</ui:composition>
+</html>

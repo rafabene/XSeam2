@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="5100102" description="Acorizal" />
+	<domain id="5100201" description="Água Boa" />
+	<domain id="5100250" description="Alta Floresta" />
+	<domain id="5100300" description="Alto Araguaia" />
+	<domain id="5100359" description="Alto Boa Vista" />
+	<domain id="5100409" description="Alto Garças" />
+	<domain id="5100508" description="Alto Paraguai" />
+	<domain id="5100607" description="Alto Taquari" />
+	<domain id="5100805" description="Apiacás" />
+	<domain id="5101001" description="Araguaiana" />
+	<domain id="5101209" description="Araguainha" />
+	<domain id="5101258" description="Araputanga" />
+	<domain id="5101308" description="Arenápolis" />
+	<domain id="5101407" description="Aripuanã" />
+	<domain id="5101605" description="Barão de Melgaço" />
+	<domain id="5101704" description="Barra do Bugres" />
+	<domain id="5101803" description="Barra do Garças" />
+	<domain id="5101852" description="Bom Jesus do Araguaia" />
+	<domain id="5101902" description="Brasnorte" />
+	<domain id="5102504" description="Cáceres" />
+	<domain id="5102603" description="Campinápolis" />
+	<domain id="5102637" description="Campo Novo do Parecis" />
+	<domain id="5102678" description="Campo Verde" />
+	<domain id="5102686" description="Campos de Júlio" />
+	<domain id="5102694" description="Canabrava do Norte" />
+	<domain id="5102702" description="Canarana" />
+	<domain id="5102793" description="Carlinda" />
+	<domain id="5102850" description="Castanheira" />
+	<domain id="5103007" description="Chapada dos Guimarães" />
+	<domain id="5103056" description="Cláudia" />
+	<domain id="5103106" description="Cocalinho" />
+	<domain id="5103205" description="Colíder" />
+	<domain id="5103254" description="Colniza" />
+	<domain id="5103304" description="Comodoro" />
+	<domain id="5103353" description="Confresa" />
+	<domain id="5103361" description="Conquista D'Oeste" />
+	<domain id="5103379" description="Cotriguaçu" />
+	<domain id="5103403" description="Cuiabá" />
+	<domain id="5103437" description="Curvelândia" />
+	<domain id="5103452" description="Denise" />
+	<domain id="5103502" description="Diamantino" />
+	<domain id="5103601" description="Dom Aquino" />
+	<domain id="5103700" description="Feliz Natal" />
+	<domain id="5103809" description="Figueirópolis D'Oeste" />
+	<domain id="5103858" description="Gaúcha do Norte" />
+	<domain id="5103908" description="General Carneiro" />
+	<domain id="5103957" description="Glória D'Oeste" />
+	<domain id="5104104" description="Guarantã do Norte" />
+	<domain id="5104203" description="Guiratinga" />
+	<domain id="5104500" description="Indiavaí" />
+	<domain id="5104526" description="Ipiranga do Norte" />
+	<domain id="5104542" description="Itanhanga" />
+	<domain id="5104559" description="Itaúba" />
+	<domain id="5104609" description="Itiquira" />
+	<domain id="5104807" description="Jaciara" />
+	<domain id="5104906" description="Jangada" />
+	<domain id="5105002" description="Jauru" />
+	<domain id="5105101" description="Juara" />
+	<domain id="5105150" description="Juína" />
+	<domain id="5105176" description="Juruena" />
+	<domain id="5105200" description="Juscimeira" />
+	<domain id="5105234" description="Lambari D'Oeste" />
+	<domain id="5105259" description="Lucas do Rio Verde" />
+	<domain id="5105309" description="Luciára" />
+	<domain id="5105580" description="Marcelândia" />
+	<domain id="5105606" description="Matupá" />
+	<domain id="5105622" description="Mirassol d'Oeste" />
+	<domain id="5105903" description="Nobres" />
+	<domain id="5106000" description="Nortelândia" />
+	<domain id="5106109" description="Nossa Senhora do Livramento" />
+	<domain id="5106158" description="Nova Bandeirantes" />
+	<domain id="5106208" description="Nova Brasilândia" />
+	<domain id="5106216" description="Nova Canaã do Norte" />
+	<domain id="5108808" description="Nova Guarita" />
+	<domain id="5106182" description="Nova Lacerda" />
+	<domain id="5108857" description="Nova Marilândia" />
+	<domain id="5108907" description="Nova Maringá" />
+	<domain id="5108956" description="Nova Monte Verde" />
+	<domain id="5106224" description="Nova Mutum" />
+	<domain id="5106174" description="Nova Nazaré" />
+	<domain id="5106232" description="Nova Olímpia" />
+	<domain id="5106190" description="Nova Santa Helena" />
+	<domain id="5106240" description="Nova Ubiratã" />
+	<domain id="5106257" description="Nova Xavantina" />
+	<domain id="5106273" description="Novo Horizonte do Norte" />
+	<domain id="5106265" description="Novo Mundo" />
+	<domain id="5106315" description="Novo Santo Antônio" />
+	<domain id="5106281" description="Novo São Joaquim" />
+	<domain id="5106299" description="Paranaíta" />
+	<domain id="5106307" description="Paranatinga" />
+	<domain id="5106372" description="Pedra Preta" />
+	<domain id="5106422" description="Peixoto de Azevedo" />
+	<domain id="5106455" description="Planalto da Serra" />
+	<domain id="5106505" description="Poconé" />
+	<domain id="5106653" description="Pontal do Araguaia" />
+	<domain id="5106703" description="Ponte Branca" />
+	<domain id="5106752" description="Pontes e Lacerda" />
+	<domain id="5106778" description="Porto Alegre do Norte" />
+	<domain id="5106802" description="Porto dos Gaúchos" />
+	<domain id="5106828" description="Porto Esperidião" />
+	<domain id="5106851" description="Porto Estrela" />
+	<domain id="5107008" description="Poxoréo" />
+	<domain id="5107040" description="Primavera do Leste" />
+	<domain id="5107065" description="Querência" />
+	<domain id="5107156" description="Reserva do Cabaçal" />
+	<domain id="5107180" description="Ribeirão Cascalheira" />
+	<domain id="5107198" description="Ribeirãozinho" />
+	<domain id="5107206" description="Rio Branco" />
+	<domain id="5107578" description="Rondolândia" />
+	<domain id="5107602" description="Rondonópolis" />
+	<domain id="5107701" description="Rosário Oeste" />
+	<domain id="5107750" description="Salto do Céu" />
+	<domain id="5107248" description="Santa Carmem" />
+	<domain id="5107743" description="Santa Cruz do Xingu" />
+	<domain id="5107768" description="Santa Rita do Trivelato" />
+	<domain id="5107776" description="Santa Terezinha" />
+	<domain id="5107263" description="Santo Afonso" />
+	<domain id="5107792" description="Santo Antônio do Leste" />
+	<domain id="5107800" description="Santo Antônio do Leverger" />
+	<domain id="5107859" description="São Félix do Araguaia" />
+	<domain id="5107297" description="São José do Povo" />
+	<domain id="5107305" description="São José do Rio Claro" />
+	<domain id="5107354" description="São José do Xingu" />
+	<domain id="5107107" description="São José dos Quatro Marcos" />
+	<domain id="5107404" description="São Pedro da Cipa" />
+	<domain id="5107875" description="Sapezal" />
+	<domain id="5107883" description="Serra Nova Dourada" />
+	<domain id="5107909" description="Sinop" />
+	<domain id="5107925" description="Sorriso" />
+	<domain id="5107941" description="Tabaporã" />
+	<domain id="5107958" description="Tangará da Serra" />
+	<domain id="5108006" description="Tapurah" />
+	<domain id="5108055" description="Terra Nova do Norte" />
+	<domain id="5108105" description="Tesouro" />
+	<domain id="5108204" description="Torixoréu" />
+	<domain id="5108303" description="União do Sul" />
+	<domain id="5108352" description="Vale de São Domingos" />
+	<domain id="5108402" description="Várzea Grande" />
+	<domain id="5108501" description="Vera" />
+	<domain id="5105507" description="Vila Bela da Santíssima Trindade" />
+	<domain id="5108600" description="Vila Rica" />
+</tns:domain>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="1200013" description="Acrelândia" />
+	<domain id="1200054" description="Assis Brasil" />
+	<domain id="1200104" description="Brasiléia" />
+	<domain id="1200138" description="Bujari" />
+	<domain id="1200179" description="Capixaba" />
+	<domain id="1200203" description="Cruzeiro do Sul" />
+	<domain id="1200252" description="Epitaciolândia" />
+	<domain id="1200302" description="Feijó" />
+	<domain id="1200328" description="Jordão" />
+	<domain id="1200336" description="Mâncio Lima" />
+	<domain id="1200344" description="Manoel Urbano" />
+	<domain id="1200351" description="Marechal Thaumaturgo" />
+	<domain id="1200385" description="Plácido de Castro" />
+	<domain id="1200807" description="Porto Acre" />
+	<domain id="1200393" description="Porto Walter" />
+	<domain id="1200401" description="Rio Branco" />
+	<domain id="1200427" description="Rodrigues Alves" />
+	<domain id="1200435" description="Santa Rosa do Purus" />
+	<domain id="1200500" description="Sena Madureira" />
+	<domain id="1200450" description="Senador Guiomard" />
+	<domain id="1200609" description="Tarauacá" />
+	<domain id="1200708" description="Xapuri" />
+</tns:domain>

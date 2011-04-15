@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="1600105" description="Amapa" />
+	<domain id="1600204" description="Calçoene" />
+	<domain id="1600212" description="Cutias" />
+	<domain id="1600238" description="Ferreira Gomes" />
+	<domain id="1600253" description="Itaubal" />
+	<domain id="1600279" description="Laranjal do Jari" />
+	<domain id="1600303" description="Macapá" />
+	<domain id="1600402" description="Mazagão" />
+	<domain id="1600501" description="Oiapoque" />
+	<domain id="1600154" description="Pedra Branca do Amapari" />
+	<domain id="1600535" description="Porto Grande" />
+	<domain id="1600550" description="Pracuúba" />
+	<domain id="1600600" description="Santana" />
+	<domain id="1600055" description="Serra do Navio" />
+	<domain id="1600709" description="Tartarugalzinho" />
+	<domain id="1600808" description="Vitória do Jari" />
+</tns:domain>

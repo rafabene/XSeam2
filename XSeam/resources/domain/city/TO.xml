@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="1700251" description="Abreulandia" />
+	<domain id="1700301" description="Aguiarnópolis" />
+	<domain id="1700350" description="Aliança do Tocantins" />
+	<domain id="1700400" description="Almas" />
+	<domain id="1700707" description="Alvorada" />
+	<domain id="1701002" description="Ananás" />
+	<domain id="1701051" description="Angico" />
+	<domain id="1701101" description="Aparecida do Rio Negro" />
+	<domain id="1701309" description="Aragominas" />
+	<domain id="1701903" description="Araguacema" />
+	<domain id="1702000" description="Araguaçu" />
+	<domain id="1702109" description="Araguaína" />
+	<domain id="1702158" description="Araguanã" />
+	<domain id="1702208" description="Araguatins" />
+	<domain id="1702307" description="Arapoema" />
+	<domain id="1702406" description="Arraias" />
+	<domain id="1702554" description="Augustinópolis" />
+	<domain id="1702703" description="Aurora do Tocantins" />
+	<domain id="1702901" description="Axixá do Tocantins" />
+	<domain id="1703008" description="Babaçulândia" />
+	<domain id="1703057" description="Bandeirantes do Tocantins" />
+	<domain id="1703073" description="Barra do Ouro" />
+	<domain id="1703107" description="Barrolândia" />
+	<domain id="1703206" description="Bernardo Sayão" />
+	<domain id="1703305" description="Bom Jesus do Tocantins" />
+	<domain id="1703602" description="Brasilândia do Tocantins" />
+	<domain id="1703701" description="Brejinho de Nazaré" />
+	<domain id="1703800" description="Buriti do Tocantins" />
+	<domain id="1703826" description="Cachoeirinha" />
+	<domain id="1703842" description="Campos Lindos" />
+	<domain id="1703867" description="Cariri do Tocantins" />
+	<domain id="1703883" description="Carmolândia" />
+	<domain id="1703891" description="Carrasco Bonito" />
+	<domain id="1703909" description="Caseara" />
+	<domain id="1704105" description="Centenário" />
+	<domain id="1705102" description="Chapada da Natividade" />
+	<domain id="1704600" description="Chapada de Areia" />
+	<domain id="1705508" description="Colinas do Tocantins" />
+	<domain id="1716703" description="Colméia" />
+	<domain id="1705557" description="Combinado" />
+	<domain id="1705607" description="Conceição do Tocantins" />
+	<domain id="1706001" description="Couto de Magalhães" />
+	<domain id="1706100" description="Cristalândia" />
+	<domain id="1706258" description="Crixás do Tocantins" />
+	<domain id="1706506" description="Darcinópolis" />
+	<domain id="1707009" description="Dianópolis" />
+	<domain id="1707108" description="Divinópolis do Tocantins" />
+	<domain id="1707207" description="Dois Irmãos do Tocantins" />
+	<domain id="1707306" description="Dueré" />
+	<domain id="1707405" description="Esperantina" />
+	<domain id="1707553" description="Fátima" />
+	<domain id="1707652" description="Figueirópolis" />
+	<domain id="1707702" description="Filadélfia" />
+	<domain id="1708205" description="Formoso do Araguaia" />
+	<domain id="1708254" description="Fortaleza do Tabocão" />
+	<domain id="1708304" description="Goianorte" />
+	<domain id="1709005" description="Goiatins" />
+	<domain id="1709302" description="Guaraí" />
+	<domain id="1709500" description="Gurupi" />
+	<domain id="1709807" description="Ipueiras" />
+	<domain id="1710508" description="Itacajá" />
+	<domain id="1710706" description="Itaguatins" />
+	<domain id="1710904" description="Itapiratins" />
+	<domain id="1711100" description="Itaporã do Tocantins" />
+	<domain id="1711506" description="Jaú do Tocantins" />
+	<domain id="1711803" description="Juarina" />
+	<domain id="1711902" description="Lagoa da Confusão" />
+	<domain id="1711951" description="Lagoa do Tocantins" />
+	<domain id="1712009" description="Lajeado" />
+	<domain id="1712157" description="Lavandeira" />
+	<domain id="1712405" description="Lizarda" />
+	<domain id="1712454" description="Luzinópolis" />
+	<domain id="1712504" description="Marianópolis do Tocantins" />
+	<domain id="1712702" description="Mateiros" />
+	<domain id="1712801" description="Maurilândia do Tocantins" />
+	<domain id="1713205" description="Miracema do Tocantins" />
+	<domain id="1713304" description="Miranorte" />
+	<domain id="1713601" description="Monte do Carmo" />
+	<domain id="1713700" description="Monte Santo do Tocantins" />
+	<domain id="1713957" description="Muricilândia" />
+	<domain id="1714203" description="Natividade" />
+	<domain id="1714302" description="Nazaré" />
+	<domain id="1714880" description="Nova Olinda" />
+	<domain id="1715002" description="Nova Rosalândia" />
+	<domain id="1715101" description="Novo Acordo" />
+	<domain id="1715150" description="Novo Alegre" />
+	<domain id="1715259" description="Novo Jardim" />
+	<domain id="1715507" description="Oliveira de Fátima" />
+	<domain id="1721000" description="Palmas" />
+	<domain id="1715705" description="Palmeirante" />
+	<domain id="1713809" description="Palmeiras do Tocantins" />
+	<domain id="1715754" description="Palmeirópolis" />
+	<domain id="1716109" description="Paraíso do Tocantins" />
+	<domain id="1716208" description="Paranã" />
+	<domain id="1716307" description="Pau D'Arco" />
+	<domain id="1716505" description="Pedro Afonso" />
+	<domain id="1716604" description="Peixe" />
+	<domain id="1716653" description="Pequizeiro" />
+	<domain id="1717008" description="Pindorama do Tocantins" />
+	<domain id="1717206" description="Piraquê" />
+	<domain id="1717503" description="Pium" />
+	<domain id="1717800" description="Ponte Alta do Bom Jesus" />
+	<domain id="1717909" description="Ponte Alta do Tocantins" />
+	<domain id="1718006" description="Porto Alegre do Tocantins" />
+	<domain id="1718204" description="Porto Nacional" />
+	<domain id="1718303" description="Praia Norte" />
+	<domain id="1718402" description="Presidente Kennedy" />
+	<domain id="1718451" description="Pugmil" />
+	<domain id="1718501" description="Recursolândia" />
+	<domain id="1718550" description="Riachinho" />
+	<domain id="1718659" description="Rio da Conceição" />
+	<domain id="1718709" description="Rio dos Bois" />
+	<domain id="1718758" description="Rio Sono" />
+	<domain id="1718808" description="Sampaio" />
+	<domain id="1718840" description="Sandolândia" />
+	<domain id="1718865" description="Santa Fé do Araguaia" />
+	<domain id="1718881" description="Santa Maria do Tocantins" />
+	<domain id="1718899" description="Santa Rita do Tocantins" />
+	<domain id="1718907" description="Santa Rosa do Tocantins" />
+	<domain id="1719004" description="Santa Tereza do Tocantins" />
+	<domain id="1720002" description="Santa Terezinha do Tocantins" />
+	<domain id="1720101" description="São Bento do Tocantins" />
+	<domain id="1720150" description="São Félix do Tocantins" />
+	<domain id="1720200" description="São Miguel do Tocantins" />
+	<domain id="1720259" description="São Salvador do Tocantins" />
+	<domain id="1720309" description="São Sebastião do Tocantins" />
+	<domain id="1720499" description="São Valério da Natividade" />
+	<domain id="1720655" description="Silvanópolis" />
+	<domain id="1720804" description="Sítio Novo do Tocantins" />
+	<domain id="1720853" description="Sucupira" />
+	<domain id="1720903" description="Taguatinga" />
+	<domain id="1720937" description="Taipas do Tocantins" />
+	<domain id="1720978" description="Talismã" />
+	<domain id="1721109" description="Tocantínia" />
+	<domain id="1721208" description="Tocantinópolis" />
+	<domain id="1721257" description="Tupirama" />
+	<domain id="1721307" description="Tupiratins" />
+	<domain id="1722081" description="Wanderlândia" />
+	<domain id="1722107" description="Xambioá" />
+</tns:domain>

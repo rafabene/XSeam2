@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="12" description="AC" />
+	<domain id="27" description="AL" />
+	<domain id="13" description="AM" />
+	<domain id="16" description="AP" />
+	<domain id="29" description="BA" />
+	<domain id="23" description="CE" />
+	<domain id="53" description="DF" />
+	<domain id="32" description="ES" />
+	<domain id="52" description="GO" />
+	<domain id="21" description="MA" />
+	<domain id="31" description="MG" />
+	<domain id="50" description="MS" />
+	<domain id="51" description="MT" />
+	<domain id="15" description="PA" />
+	<domain id="25" description="PB" />
+	<domain id="26" description="PE" />
+	<domain id="22" description="PI" />
+	<domain id="41" description="PR" />
+	<domain id="33" description="RJ" />
+	<domain id="24" description="RN" />
+	<domain id="11" description="RO" />
+	<domain id="14" description="RR" />
+	<domain id="43" description="RS" />
+	<domain id="42" description="SC" />
+	<domain id="28" description="SE" />
+	<domain id="35" description="SP" />
+	<domain id="17" description="TO" />
+</tns:domain>

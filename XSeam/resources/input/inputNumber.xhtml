@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:a4j="http://richfaces.org/a4j" 
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:x="http://www.xseam.org">
+
+<ui:composition>
+
+	<a4j:loadScript src="resource://js/jquery.numeric.js"/>
+	<rich:jQuery selector="##{name}Input" query="numeric('#{x:getDefaultValue(decimalSeparator,',')}')" timing="onload"/>
+
+	<x:inputText name="#{name}" label="#{label}" value="#{value}" maxlength="#{maxlength}" accesskey="#{accesskey}"
+	ajaxValidation="#{ajaxValidation}" autocomplete="#{autocomplete}" emptyValueToNull="#{emptyValueToNull}" 
+	jsfConverter="#{jsfConverter}" jsfValidator="#{jsfValidator}" mask="#{mask}" readonly="#{readonly}"
+	rendered="#{rendered}" required="#{required}" title="#{title}"/>
+	
+
+</ui:composition>
+</html>

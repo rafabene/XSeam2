@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:x="http://www.mec.gov.br/seam">
+<ui:component rendered="#{ (not empty queryComponent.maxResults) and (queryComponent.pageCount > 1) }">
+	
+	<div align="center" style="float: left;">
+		<table align="left" border="0" cellpadding="0" cellspacing="1" class="dr-dscr-t rich-dtascroller-table ">
+			<tbody>
+				<tr>
+					<td class="#{queryComponent.previousExists?'':'dr-dscr-button-dsbld rich-datascr-button-dsbld'} dr-dscr-button rich-datascr-button">
+						<s:link propagation="join" rendered="#{queryComponent.previousExists}" style="display: block; width: inherit; height: inherit;" >
+							<f:param name="firstResult" value="0"/>
+							<f:param name="order" value="#{queryComponent.order}"/>
+							&#171;&#171;
+						</s:link>
+						<h:outputText value="&#171;&#171;" rendered="#{not queryComponent.previousExists}" />
+					</td>
+					<td class="#{queryComponent.previousExists?'':'dr-dscr-button-dsbld rich-datascr-button-dsbld'} dr-dscr-button rich-datascr-button">
+						<s:link propagation="join" rendered="#{queryComponent.previousExists}"  style="display: block; width: inherit; height: inherit;" >
+							<f:param name="firstResult" value="#{queryComponent.previousFirstResult}"/>
+							<f:param name="order" value="#{queryComponent.order}"/>
+							&#171;
+						</s:link>
+						<h:outputText value="&#171;" rendered="#{not queryComponent.previousExists}" />
+					</td>
+					
+					<td class="rich-datascr-act " style="padding-left: 5px; padding-right: 5px"><h:outputText value="#{queryComponent.summaryMessage}" /></td>
+					
+					<td class="#{queryComponent.nextExists?'':'dr-dscr-button-dsbld rich-datascr-button-dsbld'} dr-dscr-button rich-datascr-button">
+						<s:link  rendered="#{queryComponent.nextExists}" propagation="join"  style="display: block; width: inherit; height: inherit;" >
+							<f:param name="firstResult" value="#{queryComponent.nextFirstResult}"/>
+							<f:param name="order" value="#{queryComponent.order}"/>
+							&#187;
+						</s:link>
+						<h:outputText value="&#187;" rendered="#{not queryComponent.nextExists}" />
+					</td>
+					<td class="#{queryComponent.nextExists?'':'dr-dscr-button-dsbld rich-datascr-button-dsbld'} dr-dscr-button rich-datascr-button" >
+						<s:link  rendered="#{queryComponent.nextExists}" propagation="join"  style="display: block; width: inherit; height: inherit;" >
+							<f:param name="firstResult" value="#{queryComponent.lastFirstResult}"/>
+							<f:param name="order" value="#{queryComponent.order}" />
+							&#187;&#187;
+						</s:link>
+						<h:outputText value="&#187;&#187;" rendered="#{not queryComponent.nextExists}" />
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<br class="Clear" /> 
+</ui:component> 
+</html>

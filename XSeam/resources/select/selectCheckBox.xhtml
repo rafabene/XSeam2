@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:a4j="http://richfaces.org/a4j" xmlns:x="http://www.xseam.org">
+<ui:composition>
+
+		<s:decorate template="../layout/display.xhtml" id="#{name}Decorate">
+
+		<ui:define name="label">
+			<h:outputLabel for="#{name}Check" value="#{label}"
+				accesskey="#{accesskey}" />
+		</ui:define>
+
+		<h:selectBooleanCheckbox id="#{name}Check" value="#{value}"
+			required="#{required}" title="#{title}" disabled="#{readonly}">
+
+			
+
+			<!--  Se deve re-renderizar alguém chamando ou não alguma ação -->
+			<!-- TODO : O reRender do objeto ajax está concatenado com "Select", pois, teoricamente, um
+			objeto select fará reRender em um outro objeto select -->
+			<c:if test="#{not empty reRender and not readonly}">
+				<c:choose>
+					<c:when test="#{empty actionBean}">
+						<a4j:support event="onchange" reRender="#{reRender}Decorate"
+							limitToList="true" ajaxSingle="true" bypassUpdates="false" />
+					</c:when>
+					<c:otherwise>
+						<a4j:support event="onchange" reRender="#{reRender}Decorate"
+							limitToList="true" ajaxSingle="true" bypassUpdates="false"
+							action="#{actionBean[ajaxAction]}" />
+					</c:otherwise>
+				</c:choose>
+			</c:if>
+
+			<ui:insert />
+
+			<!--  AJAX Validation -->
+			<c:if test="#{ajaxValidation}">
+				<a4j:support event="onchange" reRender="#{name}Check"
+					limitToList="true" ajaxSingle="true" bypassUpdates="true" />
+			</c:if>
+
+		</h:selectBooleanCheckbox>
+	</s:decorate>
+
+</ui:composition>
+</html>

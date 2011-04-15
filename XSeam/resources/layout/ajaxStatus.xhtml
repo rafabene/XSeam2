@@ -1,0 +1,24 @@
+<ui:component xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich">
+
+	<a4j:status
+		onstart="Richfaces.showModalPanel('ajaxLoadingModalBox',{width:450, top:200})"
+		onstop="Richfaces.hideModalPanel('ajaxLoadingModalBox')" />
+		
+	<rich:modalPanel id="ajaxLoadingModalBox" minHeight="100"
+		minWidth="100" height="100" width="100" zindex="2000">
+		
+		<f:facet name="header">
+			<h:outputText value="#{x:getDefaultValue(title,messages['xseam.layout.ajaxStatusModalPanelTitle'])}" />
+		</f:facet>
+		
+		<h:outputText value="#{x:getDefaultValue(text,messages['xseam.layout.ajaxStatusModalPanelText'])}" />
+		
+	</rich:modalPanel>
+
+</ui:component>
+

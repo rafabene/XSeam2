@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:domain xmlns:tns="www.xseam.org/schemas/Domain"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.xseam.org/schemas/Domain ../Domain.xsd ">
+	<domain id="4200051" description="Abdon Batista" />
+	<domain id="4200101" description="Abelardo Luz" />
+	<domain id="4200200" description="Agrolândia" />
+	<domain id="4200309" description="Agronômica" />
+	<domain id="4200408" description="Água Doce" />
+	<domain id="4200507" description="Águas de Chapecó" />
+	<domain id="4200556" description="Águas Frias" />
+	<domain id="4200606" description="Águas Mornas" />
+	<domain id="4200705" description="Alfredo Wagner" />
+	<domain id="4200754" description="Alto Bela Vista" />
+	<domain id="4200804" description="Anchieta" />
+	<domain id="4200903" description="Angelina" />
+	<domain id="4201000" description="Anita Garibaldi" />
+	<domain id="4201109" description="Anitápolis" />
+	<domain id="4201208" description="Antônio Carlos" />
+	<domain id="4201257" description="Apiúna" />
+	<domain id="4201273" description="Arabutã" />
+	<domain id="4201307" description="Araquari" />
+	<domain id="4201406" description="Araranguá" />
+	<domain id="4201505" description="Armazém" />
+	<domain id="4201604" description="Arroio Trinta" />
+	<domain id="4201653" description="Arvoredo" />
+	<domain id="4201703" description="Ascurra" />
+	<domain id="4201802" description="Atalanta" />
+	<domain id="4201901" description="Aurora" />
+	<domain id="4201950" description="Balneário Arroio do Silva" />
+	<domain id="4202057" description="Balneário Barra do Sul" />
+	<domain id="4202008" description="Balneário Camboriú" />
+	<domain id="4202073" description="Balneário Gaivota" />
+	<domain id="4202081" description="Bandeirante" />
+	<domain id="4202099" description="Barra Bonita" />
+	<domain id="4202107" description="Barra Velha" />
+	<domain id="4202131" description="Bela Vista do Toldo" />
+	<domain id="4202156" description="Belmonte" />
+	<domain id="4202206" description="Benedito Novo" />
+	<domain id="4202305" description="Biguaçu" />
+	<domain id="4202404" description="Blumenau" />
+	<domain id="4202438" description="Bocaina do Sul" />
+	<domain id="4202503" description="Bom Jardim da Serra" />
+	<domain id="4202537" description="Bom Jesus" />
+	<domain id="4202578" description="Bom Jesus do Oeste" />
+	<domain id="4202602" description="Bom Retiro" />
+	<domain id="4202453" description="Bombinhas" />
+	<domain id="4202701" description="Botuverá" />
+	<domain id="4202800" description="Braço do Norte" />
+	<domain id="4202859" description="Braço do Trombudo" />
+	<domain id="4202875" description="Brunópolis" />
+	<domain id="4202909" description="Brusque" />
+	<domain id="4203006" description="Caçador" />
+	<domain id="4203105" description="Caibi" />
+	<domain id="4203154" description="Calmon" />
+	<domain id="4203204" description="Camboriú" />
+	<domain id="4203303" description="Campo Alegre" />
+	<domain id="4203402" description="Campo Belo do Sul" />
+	<domain id="4203501" description="Campo Erê" />
+	<domain id="4203600" description="Campos Novos" />
+	<domain id="4203709" description="Canelinha" />
+	<domain id="4203808" description="Canoinhas" />
+	<domain id="4203253" description="Capão Alto" />
+	<domain id="4203907" description="Capinzal" />
+	<domain id="4203956" description="Capivari de Baixo" />
+	<domain id="4204004" description="Catanduvas" />
+	<domain id="4204103" description="Caxambu do Sul" />
+	<domain id="4204152" description="Celso Ramos" />
+	<domain id="4204178" description="Cerro Negro" />
+	<domain id="4204194" description="Chapadão do Lageado" />
+	<domain id="4204202" description="Chapecó" />
+	<domain id="4204251" description="Cocal do Sul" />
+	<domain id="4204301" description="Concórdia" />
+	<domain id="4204350" description="Cordilheira Alta" />
+	<domain id="4204400" description="Coronel Freitas" />
+	<domain id="4204459" description="Coronel Martins" />
+	<domain id="4204558" description="Correia Pinto" />
+	<domain id="4204509" description="Corupá" />
+	<domain id="4204608" description="Criciúma" />
+	<domain id="4204707" description="Cunha Porã" />
+	<domain id="4204756" description="Cunhataí" />
+	<domain id="4204806" description="Curitibanos" />
+	<domain id="4204905" description="Descanso" />
+	<domain id="4205001" description="Dionísio Cerqueira" />
+	<domain id="4205100" description="Dona Emma" />
+	<domain id="4205159" description="Doutor Pedrinho" />
+	<domain id="4205175" description="Entre Rios" />
+	<domain id="4205191" description="Ermo" />
+	<domain id="4205209" description="Erval Velho" />
+	<domain id="4205308" description="Faxinal dos Guedes" />
+	<domain id="4205357" description="Flor do Sertão" />
+	<domain id="4205407" description="Florianópolis" />
+	<domain id="4205431" description="Formosa do Sul" />
+	<domain id="4205456" description="Forquilhinha" />
+	<domain id="4205506" description="Fraiburgo" />
+	<domain id="4205555" description="Frei Rogério" />
+	<domain id="4205605" description="Galvão" />
+	<domain id="4205704" description="Garopaba" />
+	<domain id="4205803" description="Garuva" />
+	<domain id="4205902" description="Gaspar" />
+	<domain id="4206009" description="Governador Celso Ramos" />
+	<domain id="4206108" description="Grão Pará" />
+	<domain id="4206207" description="Gravatal" />
+	<domain id="4206306" description="Guabiruba" />
+	<domain id="4206405" description="Guaraciaba" />
+	<domain id="4206504" description="Guaramirim" />
+	<domain id="4206603" description="Guarujá do Sul" />
+	<domain id="4206652" description="Guatambú" />
+	<domain id="4206702" description="Herval d'Oeste" />
+	<domain id="4206751" description="Ibiam" />
+	<domain id="4206801" description="Ibicaré" />
+	<domain id="4206900" description="Ibirama" />
+	<domain id="4207007" description="Içara" />
+	<domain id="4207106" description="Ilhota" />
+	<domain id="4207205" description="Imaruí" />
+	<domain id="4207304" description="Imbituba" />
+	<domain id="4207403" description="Imbuia" />
+	<domain id="4207502" description="Indaial" />
+	<domain id="4207577" description="Iomerê" />
+	<domain id="4207601" description="Ipira" />
+	<domain id="4207650" description="Iporã do Oeste" />
+	<domain id="4207684" description="Ipuaçu" />
+	<domain id="4207700" description="Ipumirim" />
+	<domain id="4207759" description="Iraceminha" />
+	<domain id="4207809" description="Irani" />
+	<domain id="4207858" description="Irati" />
+	<domain id="4207908" description="Irineópolis" />
+	<domain id="4208005" description="Itá" />
+	<domain id="4208104" description="Itaiópolis" />
+	<domain id="4208203" description="Itajaí" />
+	<domain id="4208302" description="Itapema" />
+	<domain id="4208401" description="Itapiranga" />
+	<domain id="4208450" description="Itapoá" />
+	<domain id="4208500" description="Ituporanga" />
+	<domain id="4208609" description="Jaborá" />
+	<domain id="4208708" description="Jacinto Machado" />
+	<domain id="4208807" description="Jaguaruna" />
+	<domain id="4208906" description="Jaraguá do Sul" />
+	<domain id="4208955" description="Jardinópolis" />
+	<domain id="4209003" description="Joaçaba" />
+	<domain id="4209102" description="Joinville" />
+	<domain id="4209151" description="José Boiteux" />
+	<domain id="4209177" description="Jupiá" />
+	<domain id="4209201" description="Lacerdópolis" />
+	<domain id="4209300" description="Lages" />
+	<domain id="4209409" description="Laguna" />
+	<domain id="4209458" description="Lajeado Grande" />
+	<domain id="4209508" description="Laurentino" />
+	<domain id="4209607" description="Lauro Muller" />
+	<domain id="4209706" description="Lebon Régis" />
+	<domain id="4209805" description="Leoberto Leal" />
+	<domain id="4209854" description="Lindóia do Sul" />
+	<domain id="4209904" description="Lontras" />
+	<domain id="4210001" description="Luiz Alves" />
+	<domain id="4210035" description="Luzerna" />
+	<domain id="4210050" description="Macieira" />
+	<domain id="4210100" description="Mafra" />
+	<domain id="4210209" description="Major Gercino" />
+	<domain id="4210308" description="Major Vieira" />
+	<domain id="4210407" description="Maracajá" />
+	<domain id="4210506" description="Maravilha" />
+	<domain id="4210555" description="Marema" />
+	<domain id="4210605" description="Massaranduba" />
+	<domain id="4210704" description="Matos Costa" />
+	<domain id="4210803" description="Meleiro" />
+	<domain id="4210852" description="Mirim Doce" />
+	<domain id="4210902" description="Modelo" />
+	<domain id="4211009" description="Mondaí" />
+	<domain id="4211058" description="Monte Carlo" />
+	<domain id="4211108" description="Monte Castelo" />
+	<domain id="4211207" description="Morro da Fumaça" />
+	<domain id="4211256" description="Morro Grande" />
+	<domain id="4211306" description="Navegantes" />
+	<domain id="4211405" description="Nova Erechim" />
+	<domain id="4211454" description="Nova Itaberaba" />
+	<domain id="4211504" description="Nova Trento" />
+	<domain id="4211603" description="Nova Veneza" />
+	<domain id="4211652" description="Novo Horizonte" />
+	<domain id="4211702" description="Orleans" />
+	<domain id="4211751" description="Otacílio Costa" />
+	<domain id="4211801" description="Ouro" />
+	<domain id="4211850" description="Ouro Verde" />
+	<domain id="4211876" description="Paial" />
+	<domain id="4211892" description="Painel" />
+	<domain id="4211900" description="Palhoça" />
+	<domain id="4212007" description="Palma Sola" />
+	<domain id="4212056" description="Palmeira" />
+	<domain id="4212106" description="Palmitos" />
+	<domain id="4212205" description="Papanduva" />
+	<domain id="4212239" description="Paraíso" />
+	<domain id="4212254" description="Passo de Torres" />
+	<domain id="4212270" description="Passos Maia" />
+	<domain id="4212304" description="Paulo Lopes" />
+	<domain id="4212403" description="Pedras Grandes" />
+	<domain id="4212502" description="Penha" />
+	<domain id="4212601" description="Peritiba" />
+	<domain id="4212700" description="Petrolândia" />
+	<domain id="4212809" description="Piçarras" />
+	<domain id="4212908" description="Pinhalzinho" />
+	<domain id="4213005" description="Pinheiro Preto" />
+	<domain id="4213104" description="Piratuba" />
+	<domain id="4213153" description="Planalto Alegre" />
+	<domain id="4213203" description="Pomerode" />
+	<domain id="4213302" description="Ponte Alta" />
+	<domain id="4213351" description="Ponte Alta do Norte" />
+	<domain id="4213401" description="Ponte Serrada" />
+	<domain id="4213500" description="Porto Belo" />
+	<domain id="4213609" description="Porto União" />
+	<domain id="4213708" description="Pouso Redondo" />
+	<domain id="4213807" description="Praia Grande" />
+	<domain id="4213906" description="Presidente Castelo Branco" />
+	<domain id="4214003" description="Presidente Getúlio" />
+	<domain id="4214102" description="Presidente Nereu" />
+	<domain id="4214151" description="Princesa" />
+	<domain id="4214201" description="Quilombo" />
+	<domain id="4214300" description="Rancho Queimado" />
+	<domain id="4214409" description="Rio das Antas" />
+	<domain id="4214508" description="Rio do Campo" />
+	<domain id="4214607" description="Rio do Oeste" />
+	<domain id="4214805" description="Rio do Sul" />
+	<domain id="4214706" description="Rio dos Cedros" />
+	<domain id="4214904" description="Rio Fortuna" />
+	<domain id="4215000" description="Rio Negrinho" />
+	<domain id="4215059" description="Rio Rufino" />
+	<domain id="4215075" description="Riqueza" />
+	<domain id="4215109" description="Rodeio" />
+	<domain id="4215208" description="Romelândia" />
+	<domain id="4215307" description="Salete" />
+	<domain id="4215356" description="Saltinho" />
+	<domain id="4215406" description="Salto Veloso" />
+	<domain id="4215455" description="Sangão" />
+	<domain id="4215505" description="Santa Cecília" />
+	<domain id="4215554" description="Santa Helena" />
+	<domain id="4215604" description="Santa Rosa de Lima" />
+	<domain id="4215653" description="Santa Rosa do Sul" />
+	<domain id="4215679" description="Santa Terezinha" />
+	<domain id="4215687" description="Santa Terezinha do Progresso" />
+	<domain id="4215695" description="Santiago do Sul" />
+	<domain id="4215703" description="Santo Amaro da Imperatriz" />
+	<domain id="4215802" description="São Bento do Sul" />
+	<domain id="4215752" description="São Bernardino" />
+	<domain id="4215901" description="São Bonifácio" />
+	<domain id="4216008" description="São Carlos" />
+	<domain id="4216057" description="São Cristovão do Sul" />
+	<domain id="4216107" description="São Domingos" />
+	<domain id="4216206" description="São Francisco do Sul" />
+	<domain id="4216305" description="São João Batista" />
+	<domain id="4216354" description="São João do Itaperiú" />
+	<domain id="4216255" description="São João do Oeste" />
+	<domain id="4216404" description="São João do Sul" />
+	<domain id="4216503" description="São Joaquim" />
+	<domain id="4216602" description="São José" />
+	<domain id="4216701" description="São José do Cedro" />
+	<domain id="4216800" description="São José do Cerrito" />
+	<domain id="4216909" description="São Lourenço do Oeste" />
+	<domain id="4217006" description="São Ludgero" />
+	<domain id="4217105" description="São Martinho" />
+	<domain id="4217154" description="São Miguel da Boa Vista" />
+	<domain id="4217204" description="São Miguel do Oeste" />
+	<domain id="4217253" description="São Pedro de Alcântara" />
+	<domain id="4217303" description="Saudades" />
+	<domain id="4217402" description="Schroeder" />
+	<domain id="4217501" description="Seara" />
+	<domain id="4217550" description="Serra Alta" />
+	<domain id="4217600" description="Siderópolis" />
+	<domain id="4217709" description="Sombrio" />
+	<domain id="4217758" description="Sul Brasil" />
+	<domain id="4217808" description="Taió" />
+	<domain id="4217907" description="Tangará" />
+	<domain id="4217956" description="Tigrinhos" />
+	<domain id="4218004" description="Tijucas" />
+	<domain id="4218103" description="Timbé do Sul" />
+	<domain id="4218202" description="Timbó" />
+	<domain id="4218251" description="Timbó Grande" />
+	<domain id="4218301" description="Três Barras" />
+	<domain id="4218350" description="Treviso" />
+	<domain id="4218400" description="Treze de Maio" />
+	<domain id="4218509" description="Treze Tílias" />
+	<domain id="4218608" description="Trombudo Central" />
+	<domain id="4218707" description="Tubarão" />
+	<domain id="4218756" description="Tunápolis" />
+	<domain id="4218806" description="Turvo" />
+	<domain id="4218855" description="União do Oeste" />
+	<domain id="4218905" description="Urubici" />
+	<domain id="4218954" description="Urupema" />
+	<domain id="4219002" description="Urussanga" />
+	<domain id="4219101" description="Vargeão" />
+	<domain id="4219150" description="Vargem" />
+	<domain id="4219176" description="Vargem Bonita" />
+	<domain id="4219200" description="Vidal Ramos" />
+	<domain id="4219309" description="Videira" />
+	<domain id="4219358" description="Vitor Meireles" />
+	<domain id="4219408" description="Witmarsum" />
+	<domain id="4219507" description="Xanxerê" />
+	<domain id="4219606" description="Xavantina" />
+	<domain id="4219705" description="Xaxim" />
+	<domain id="4219853" description="Zortéa" />
+</tns:domain>

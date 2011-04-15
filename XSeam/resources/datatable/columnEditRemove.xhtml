@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:rich="http://richfaces.org/rich" xmlns:x="http://www.xseam.org">
+<ui:composition>
+
+	<x:columnTemplate>
+		<!-- Here goes Column Content -->
+		<c:if test="#{removeEntity}">
+			<h:commandLink action="#{homeComponent['removeFromDataTable']}"
+				onclick="javascript:if (!confirm(\'#{messages['xseam.command.confirm']}\')) return false;" title="#{removeTitle}">
+				<f:param name="rid"
+					value="#{item[x:getDefaultValue(propertyId,'id')]}" />
+				<s:graphicImage url="/image/trash.gif" style="border: 0" />
+			</h:commandLink>
+		</c:if>
+		<rich:spacer />
+		<c:if test="#{editEntity}">
+			<s:link view="#{viewId}" propagation="nest" title="#{editTitle}">
+				<c:if test="#{editEntity}">
+					<s:graphicImage url="/image/edit.png" style="border: 0" />
+				</c:if>
+				<f:param name="rid"
+					value="#{item[x:getDefaultValue(propertyId,'id')]}" />
+			</s:link>
+		</c:if>
+
+		<ui:insert />
+
+	</x:columnTemplate>
+
+</ui:composition>
+</html>

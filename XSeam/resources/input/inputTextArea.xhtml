@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:a4j="http://richfaces.org/a4j" xmlns:x="http://www.xseam.org">
+
+<ui:composition>
+
+	<s:decorate template="../layout/edit.xhtml" id="#{name}Decorate">
+
+		<ui:define name="label">
+			<h:outputText value="#{label}" id="#{name}Label" accesskey="#{accesskey}"/>
+		</ui:define>
+
+		<h:inputTextarea id="#{name}Input" value="#{value}" required="#{required}" 
+			title="#{title}" readonly="#{readonly}"
+			disabled="#{readonly}">
+			<ui:insert />
+			
+			<!--  AJAX Validation -->
+			<c:if test="#{ajaxValidation}">
+				<a4j:support event="onblur" reRender="#{name}Decorate" limitToList="true"
+					ajaxSingle="true" bypassUpdates="true"  requestDelay="50" eventsQueue="validation" />
+			</c:if>
+				
+			<c:if test="#{x:getDefaultValue(emptyValueToNull,true)}">
+				<f:converter converterId="org.xseam.emptyValueToNullConverter" />
+			</c:if>
+			
+		</h:inputTextarea>
+	</s:decorate>
+</ui:composition>
+</html>

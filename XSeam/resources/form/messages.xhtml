@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+	xmlns		= "http://www.w3.org/1999/xhtml"
+	xmlns:ui	= "http://java.sun.com/jsf/facelets"
+	xmlns:h		= "http://java.sun.com/jsf/html"
+	xmlns:s		= "http://jboss.com/products/seam/taglib"
+	xmlns:rich	="http://richfaces.org/rich"
+	xmlns:x		= "http://www.xseam.org">
+	
+<ui:composition>
+	<s:div styleClass="Error" id="#{formName}Messages" rendered="#{x:getDefaultValue(showMessages,true)}">
+		  <rich:panel  styleClass="message" style="padding:0" rendered="#{! empty facesContext.maximumSeverity}">
+		    <rich:effect event="onclick" type="DropOut" params="duration:0.8" />
+			<h:messages globalOnly="true"  layout="vertical"
+							errorClass="#{x:getDefaultValue(errormsg,'errormsg')}" errorStyle="padding-left:20px;" 
+							fatalClass="#{x:getDefaultValue(errormsg,'errormsg')}" fatalStyle="padding-left:20px" 
+							infoClass="#{x:getDefaultValue(infomsg,'infomsg')}" infoStyle="padding-left:20px" 
+							warnClass="#{x:getDefaultValue(warnmsg,'warnmsg')}" warnStyle="padding-left:20px"/>
+		  </rich:panel>		
+	</s:div>
+</ui:composition>
+</html>
