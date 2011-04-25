@@ -1,1 +1,4 @@
+#Compiled classes
 */build/*
+*.class
+
